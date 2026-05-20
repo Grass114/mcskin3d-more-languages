@@ -1,5 +1,6 @@
 # mcskin3d-more-languages
-mcskin3d添加更多语言
+我就15岁，我为Minecraft社区做一点小贡献而已！
+
 # MCSkin3D - 多语言社区增强版 (Multi‑Language Community Edition)
 
 本版本基于 Paril 开发的 MCSkin3D 原版，增加了多语言支持，让皮肤编辑器对全球玩家更友好。  
