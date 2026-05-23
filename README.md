@@ -1,6 +1,3 @@
-# mcskin3d-more-languages
-我就15岁，我为Minecraft社区做一点小贡献而已！
-
 # MCSkin3D - 多语言社区增强版 (Multi‑Language Community Edition)
 
 本版本基于 Paril 开发的 MCSkin3D 原版，增加了多语言支持，让皮肤编辑器对全球玩家更友好。  
@@ -8,8 +5,7 @@
 
 ## 已支持 / 开发中的语言  
 已支持的语言：
-English(软件自带)，简体中文 (zh_CN)，繁體中文 (香港)(zh_HK)。
-- 更多语言 – 未来计划  
+English(软件自带)，简体中文 (zh_CN)，繁體中文 (香港)(zh_HK)，澳门繁体 (zh_MO)，台湾正体 (zh_TW)。
 
 ## 如何使用  
 1. 下载本仓库的压缩包（Releases 页面），或直接下载整个仓库。  
