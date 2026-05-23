@@ -7,9 +7,8 @@
 *This version is based on the original MCSkin3D by Paril, with additional language support for a better skin‑editing experience worldwide.*
 
 ## 已支持 / 开发中的语言  
-- 简体中文 (zh_CN) – 已完成  
-- 繁体中文 (zh_TW) – 进行中  
-- 文言文 (lzh) – 规划中  
+已支持的语言：
+English(软件自带)，简体中文 (zh_CN)，繁體中文 (香港)(zh_HK)。
 - 更多语言 – 未来计划  
 
 ## 如何使用  
