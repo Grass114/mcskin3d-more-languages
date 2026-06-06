@@ -4,7 +4,7 @@
 *This version is based on the original MCSkin3D by Paril, with additional language support for a better skin‑editing experience worldwide.*
 
 ## 已支持的语言  
-English(软件自带)，简体中文 (zh_CN)，繁體中文 (香港)(zh_HK)，澳门繁体 (zh_MO)，台湾正体 (zh_TW)，한국어 (Korean)，Français (French)，Español (Spanish)，Русский (Russian)，Українська (Ukrainian)。
+English(软件自带)，简体中文 (zh_CN)，繁體中文 (香港)(zh_HK)，澳门繁体 (zh_MO)，台湾正体 (zh_TW)，한국어 (Korean)，Français (French)，Español (Spanish)，Русский (Russian)，Українська (Ukrainian)，Japanese。
 
 ## 如何使用  
 1. 下载本仓库的压缩包（Releases 页面），或直接下载整个仓库。  
