@@ -10,10 +10,10 @@ MCSkin3D 是一款 Minecraft 皮肤编辑器。本增强版在原版基础上增
 · Windows 8、8.1、10、11：原生支持 .NET 4.0+，可直接运行
 · Windows Server 2012、2012 R2：自带 .NET Framework 4.5，可直接运行
 · Windows Server 2008 R2（与 Windows 7 同内核）：需手动安装 .NET Framework 4.0 或更高版本
-待测试的 Windows 操作系统：
+## 待测试的 Windows 操作系统：
 · Windows Vista
 · Windows Server 2008（不带 R2）
-不支持运行的 Windows 操作系统：
+## 不支持运行的 Windows 操作系统：
 · Windows XP 及以下版本：实测即使安装 .NET Framework 4.0 也无法运行，系统缺少必要组件
 · Windows Server 2003 及更早版本：未实测，但与 XP 同为 NT 5.x 内核，推测同样无法运行
 
