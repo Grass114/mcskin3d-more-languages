@@ -4,9 +4,9 @@
 MCSkin3D 是一款 Minecraft 皮肤编辑器。本增强版在原版基础上增加了 11 种界面语言和 25 种错误对照表，方便非英语玩家使用。
 本版本基于 Paril 开发的 MCSkin3D 原版，增加了多语言支持，让皮肤编辑器对全球玩家更友好。  
 *This version is based on the original MCSkin3D by Paril, with additional language support for a better skin‑editing experience worldwide.*
-##如果你在 Github 上下载文件较慢，可以看看以下链接
--[SourceForge 链接]https://sourceforge.net/projects/mcskin3d-more-languages/files/
--[MineBBS 链接]https://www.minebbs.com/resources/mcskin-d.16518/
+## 如果你在 Github 上下载文件较慢，可以看看以下链接
+· [SourceForge 链接]https://sourceforge.net/projects/mcskin3d-more-languages/files/
+· [MineBBS 链接]https://www.minebbs.com/resources/mcskin-d.16518/
 
 ## 已测试支持的 Windows 操作系统：
 · Windows 7：需手动安装 .NET Framework 4.0 或更高版本
