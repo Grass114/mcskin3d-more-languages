@@ -13,7 +13,7 @@ MCSkin3D 是一款 Minecraft 皮肤编辑器。本增强版在原版基础上增
 · Windows 8、8.1、10、11：原生支持 .NET 4.0+，可直接运行
 
 ## 已支持的语言  
-English(软件自带)，简体中文 (zh_CN)，繁體中文 (香港)(zh_HK)，澳门繁体 (zh_MO)，台湾正体 (zh_TW)，한국어 (Korean)，Français (French)，Español (Spanish)，Русский (Russian)，Українська (Ukrainian)，Japanese。
+English(软件自带)，简体中文 (zh_CN)，繁體中文 (香港)(zh_HK)，澳门繁体 (zh_MO)，台湾正体 (zh_TW)，한국어 (Korean)，Français (French)，Español (Spanish)，Русский (Russian)，Українська (Ukrainian)，Japanese，德语，葡萄牙语-巴西，意大利语，波兰语，土耳其语，荷兰语。
 
 ## 如何使用  
 1. 下载本仓库的压缩包（Releases 页面），或直接下载整个仓库。  
