@@ -1,0 +1,302 @@
+﻿// C-style comments.
+// First non-comment line must be the following:
+MCSkin3D Language File
+// Following lines are key-value pairs, stored by the program.
+// A line beginning with the pound/sharp/hash sign # are
+// used internally and are not actual language pieces.
+#Name=澳門繁體
+// Version is the version of the language file - it does not
+// have any effect other than identification, and does not
+// need to be present.
+#Version=1.0
+// SuppVersion is short for Supported Version, and denotes the version in which this
+// language file was made for. Any other version running this file will throw an error.
+#SuppVersion=1.4
+// Culture is the Windows culture ID for the language.
+// This is REQUIRED to be set properly!
+#Culture="zh-MO"
+
+// These lines are not required, they are simply for identification
+// purposes.
+#Author="Paril"
+#AuthorContact="paril@alteredsoftworks.com"
+#AuthorSite="www.alteredsoftworks.com"
+
+// Below this are the key-value pairs; ID=String
+// Note that the quotes are not required, but may be used for readability purposes.
+// Language developers should use this file, and not other languages, to determine the
+// context in which the string is deriving - otherwise, you may lose accuracy of your
+// translation over time (see TranslationParty).
+C_OK="好的"
+C_CANCEL="取消"
+C_CLOSE="關閉"
+C_COPYTOCLIPBOARD="複製到剪貼板"
+
+M_FILE="文件"
+	M_SAVE="保存"
+	M_SAVEAS="另存為"
+	M_SAVEALL="全部保存"
+	M_UPLOAD="上傳皮膚..."
+	M_EXIT="退出"
+M_EDIT="編輯"
+	M_UNDO="撤銷"
+	M_REDO="復原"
+	M_TOOL="工具"
+M_VIEW="檢視"
+	M_MODE="檢視模式"
+		M_PERSPECTIVE="透視圖 (3D)"
+		M_TEXTURE="紋理 (2D)"
+		M_HYBRID="混合"
+	M_3D="3D 設定"
+		M_ANIMATE="製作動畫"
+		M_FOLLOWCUR="跟隨游標"
+		M_GRASS="草地"
+		M_GHOST="虛影顯示隱藏部件"
+		M_MULTISAMPLING="多重取樣"
+	M_2D="2D 設定"
+		M_ALPHACHECKER="Alpha 棋盤格"
+		M_OVERLAY="疊加層"
+			M_ENABLEOVERLAY="啟用"
+	M_TRANSMODE="透明度模式"
+		M_OFF="關閉"
+		M_HELMETONLY="只顯示頭盔"
+		M_ALL="全部"
+	M_VISIBLEPARTS="可見部分"
+		M_HEAD="頭部"
+		M_HELMET="頭盔"
+		M_CHEST="胸部"
+		M_LEFTARM="左臂"
+		M_RIGHTARM="右臂"
+		M_LEFTLEG="左腿"
+		M_RIGHTLEG="右腿"
+M_OPTIONS="選項"
+	M_KEYSHORTCUTS="鍵盤快速鍵"
+	M_BGCOLOR="背景顏色（更改後要重新啟動軟體）"
+	M_USETEXTUREBASES="使用基礎紋理"
+M_LANGUAGE="語言"
+M_HELP="說明"
+	M_CHECKUPDATES="檢查更新"
+	M_AUTOUPDATE="自動檢查更新"
+
+T_TREE_ZOOMOUT="縮小"
+T_TREE_ZOOMIN="放大"
+T_TREE_IMPORTHERE="在此處匯入..."
+T_TREE_NEWFOLDER="在此處新建資料夾..."
+T_TREE_RENAME="重新命名..."
+T_TREE_DELETE="刪除..."
+T_TREE_CLONE="複製"
+T_TREE_UPLOAD="上傳"
+
+T_SAVE="保存"
+T_SAVEALL="全部保存"
+T_UNDO="撤銷"
+T_REDO="復原"
+T_PERSPECTIVE="透視圖"
+T_TEXTURE="紋理"
+T_HYBRID="混合"
+T_SCREENSHOT="螢幕截圖 (按住 shift 保存)"
+T_TOGGLEHEAD="顯示/隱藏頭部"
+T_TOGGLEHELMET="顯示/隱藏頭盔"
+T_TOGGLECHEST="顯示/隱藏胸部"
+T_TOGGLELEFTARM="顯示/隱藏左臂"
+T_TOGGLERIGHTARM="顯示/隱藏右臂"
+T_TOGGLELEFTLEG="顯示/隱藏左腿"
+T_TOGGLERIGHTLEG="顯示/隱藏右腿"
+T_SWATCHES="色板"
+
+M_IMPORT_HERE="在此處匯入..."
+M_NEWFOLDER="新建資料夾"
+M_NEWFOLDER_HERE="在此處新建資料夾..."
+M_RENAME="重新命名..."
+M_DELETE="刪除..."
+M_CLONE="複製"
+
+T_TOOL_CAMERA="相機"
+T_TOOL_PENCIL="鉛筆"
+T_TOOL_ERASER="橡皮擦"
+T_TOOL_DROPPER="滴管"
+T_TOOL_DODGEBURN="淡化/加深"
+T_TOOL_DARKENLIGHTEN="變暗/變亮"
+T_TOOL_BUCKET="油漆桶"
+T_TOOL_NOISE="噪點"
+
+B_MSG_DIRMISSING="一個包含的目錄遺失 - 通常是因為你沒有解壓程式。 雖然這不是一個嚴重問題，但你會缺少任何附帶的範本、色板和其他內容。"
+B_MSG_UPTODATE="你已擁有最新、最出色的版本！"
+B_MSG_NEWUPDATE="有新的更新可用！ 現在打開更新程式以查看可用更新嗎？"
+B_MSG_UPLOADERROR="上傳皮膚時出錯："
+B_MSG_UPLOADSUCCESS="皮膚上傳成功！ 祝您使用愉快！"
+B_MSG_DELETESKIN="刪除此皮膚？\r\n它將被移動到資源回收筒。"
+B_MSG_DELETEFOLDER="刪除此資料夾？\r\n它將被移動到資源回收筒。"
+B_MSG_OVERLAYERROR="無法載入疊加層影像：“{0}”；解析度是否為 2 的冪？"
+B_MSG_UPLOADRES="雖然您可以使用 MCSkin3D 編輯高解析度紋理，但無法將它們上傳到您的 Minecraft 個人資料中。"
+B_MSG_ANTIALIAS="重新啟動 MCSkin3D 以應用多重取樣選項。"
+B_MSG_PIXELFORMAT="抱歉，您的顯示卡似乎不支援 32 位元像素格式——目前，這是 MCSkin3D 正常執行所必需的。"
+B_MSG_SHORTCUTEXISTS="快速鍵“{0}”與“{1}”使用了相同的按鍵——正在將其清空。"
+
+B_CAP_QUESTION="問題"
+B_CAP_SORRY="對不起"
+
+C_SQUARE="正方形"
+C_CIRCLE="圓形"
+
+O_EXPOSURE="曝光："
+O_INCREMENTAL="增量"
+O_LIGHTEN="變亮"
+O_DARKEN="變暗"
+O_DODGE="淡化"
+O_BURN="加深"
+Q_THRESHOLD="臨界值："
+
+C_NEW="新增"
+C_CANTMOVE="無法移動到"
+C_COPY="複製"
+C_MOVE="移動"
+C_MOVED="已移動"
+C_COPYTO="複製到"
+C_MOVETO="移動到"
+C_IMPORTTO="匯入到"
+
+C_SETTINGSFAILED="設定檔載入失敗；因此已載入預設設定。"
+
+C_AUTOLOGIN="自動登入？"
+C_REMEMBER="記住我？"
+C_USERNAME="使用者名稱："
+C_PASSWORD="密碼："
+C_UPLOADTEXT="要上傳你的皮膚，你需要登入 Minecraft.net。 本程式可以自動執行此過程；請輸入你的使用者名稱和密碼以繼續。"
+
+C_UPLOADING="正在上傳您的皮膚！ 請稍候..."
+C_SHORTCUTINUSE="快速鍵已被使用"
+
+S_TREEVIEW_ZOOMIN="樹狀檢視放大"
+S_TREEVIEW_ZOOMOUT="樹狀檢視縮小"
+S_SWATCH_ZOOMIN="色板放大"
+S_SWATCH_ZOOMOUT="色板縮小"
+S_COLORSWAP="交換前景色/背景色"
+S_RENAME="變更名稱"
+S_CLONE="複製節點"
+S_DELETE="刪除節點"
+S_SCREENSHOT_CLIP="螢幕截圖到剪貼板"
+S_SCREENSHOT_SAVE="螢幕截圖保存"
+S_TOGGLEVIEW="切換檢視模式"
+S_TOGGLETRANS="切換透明度模式"
+
+M_SHORTCUTS="請按一下下方的文字方塊，然後按下您希望為此快速鍵指定的按鍵。"
+W_OPTIONS="顯示/隱藏工具選項"
+
+T_CAMERA="滑鼠左鍵旋轉。 滑鼠右鍵/滑鼠滾輪縮放。"
+T_PENCIL="滑鼠左鍵繪畫； 滑鼠右鍵或中鍵旋轉/縮放； 按住 Shift 鍵使用背景色。"
+T_DROPPER="滑鼠左鍵拾取顏色。 滑鼠右鍵/中鍵旋轉/縮放。 按住 Shift 鍵時拾取為背景色，否則拾取為前景色。"
+T_DODGEBURN="滑鼠左鍵淡化/加深。 滑鼠右鍵/中鍵旋轉/縮放。Shift 鍵切換工具。"
+T_DARKENLIGHTEN="滑鼠左鍵變暗/變亮。 滑鼠右鍵/中鍵旋轉/縮放。Shift 鍵切換工具。"
+T_ERASER="滑鼠左鍵擦除為空白顏色和透明通道。 滑鼠右鍵/中鍵旋轉/縮放。"
+T_FILL="滑鼠左鍵填滿像素。 Shift 鍵使用背景色。 按住 Ctrl 鍵鎖定到部件。 滑鼠右鍵/中鍵旋轉/縮放。"
+T_NOISE="滑鼠左鍵套用噪點。 滑鼠右鍵/中鍵旋轉/縮放。"
+
+C_UNSAVED="您有未保存的變更，確定要退出嗎？"
+C_UNSAVED_CAPTION="等等！"
+
+O_HOLDNESS="保持度："
+
+G_BRUSH="畫筆"
+G_BRUSHOPTS="畫筆選項"
+G_NOISEOPTS="噪點選項"
+G_FILLOPTS="填滿選項"
+G_TOOL="工具"
+
+T_DECRES="降低解析度"
+T_INCRES="提高解析度"
+
+M_NEWSKIN="新增皮膚"
+M_NEWSKIN_HERE="在此處新增皮膚"
+
+M_SKINERROR="無法從 Minecraft 皮膚儲存庫下載皮膚！"
+M_FETCH_NAME="從 Minecraft 取得"
+M_FETCH_TEXT="MCSkin3D 可以從你（或任何人）的 Minecraft 帳戶中取得皮膚，並將其作為皮膚檔案匯入。 請在下方輸入帳戶名稱，然後按一下‘匯入’即可！"
+M_PLAYER_NAME="玩家名稱："
+
+C_YES="是"
+C_NO="否"
+D_DONTASK="不要再詢問我"
+M_IRREVERSIBLE="注意：高解析度皮膚無法作為皮膚上傳到 Minecraft.net！\n\n此操作不可逆，並且將導致在此之前的所有撤銷/重複功能遺失。 你確定要執行此操作嗎？"
+
+M_TEMP="您正試圖從臨時位置執行 MCSkin3D。 請正確解壓程式後再執行。"
+
+T_RESETCAMERA="重設相機"
+M_SKINDIRS="皮膚目錄"
+M_DYNAMICOVERLAY="動態疊加層"
+M_DYNAMICOPTIONS="動態選項"
+M_LINECOLOR="線條顏色"
+M_LINESIZE="線條粗細"
+M_OVERLAYTEXTSIZE="文字大小"
+M_TEXTCOLOR="文字顏色"
+
+U_PIXELSCHANGED="已變更像素"
+T_TOOL_STAMP="圖章"
+T_STAMP="左鍵按一下以使用圖章。 按住 Shift 並按一下以將某個區域複製到畫筆中。"
+L_UNDOACTIONS="撤銷 {0} 個操作"
+L_REDOACTIONS="復原 {0} 個操作"
+
+M_BROWSE="瀏覽到 {0} 位置"
+M_SKIN="皮膚"
+M_FOLDER="資料夾"
+
+M_SHARED="共用選項"
+M_INFINITEMOUSE="無限滑鼠"
+
+T_SWATCHEDIT="編輯色板"
+T_DELETESWATCH="刪除色板"
+T_ADDSWATCH="新增色板"
+
+M_EXPT_EXCEPTION="發生例外狀況！"
+M_EXPT_APPERROR="應用程式錯誤！"
+M_EXPT_ERRORTEXT="MCSkin3D 遇到一個錯誤，可能會變得不穩定。 不過請不要擔心，您可以採取一些措施來提供幫助！\r\n\r\n如果您希望幫助開發者，請向我們傳送錯誤報告！ 在此視窗的最底部有一個藍色連結，指向錯誤報告的內容。 將其傳送給我們（在 PlanetMinecraft 上搜尋我們）將極大地幫助開發工作！"
+M_EXPT_SHOW="不再顯示此訊息"
+M_EXPT_CLOSE="關閉"
+M_EXPT_VIEW="要檢視報告，請按一下"
+M_EXPT_HERE="此處"
+
+C_RESTART="程式需要重新啟動後才能執行此操作！"
+C_RESTART_CAPTION="需要重新啟動"
+D_UNSAVED="您有未保存的皮膚； 變更皮膚目錄需要重新整理皮膚清單，因此您將遺失所有未保存的變更。 按一下“是”將不保存直接重新整理； 按一下“否”將等待重新啟動後重新整理； 按一下“取消”取消操作。"
+D_UNSAVED_CAPTION="未保存的變更"
+
+M_RENDERSTATS="繪圖統計資訊"
+M_GRIDCOLOR="網格顏色"
+M_GRIDOPACITY="網格不透明度"
+
+M_LOADING="載入中..."
+M_NEWPALETTE="新增色板"
+M_DELETEPALETTE="刪除色板"
+M_CONVERTSWATCH="轉換色板..."
+M_RENAMEPALETTE="重新命名色板"
+M_CURRENTFORMAT="目前格式："
+M_NEWFORMAT="新格式："
+M_SWATCHQUESTION="此操作將永久刪除此色板。 是否繼續？"
+M_SWATCHQUESTION_CAPTION="您確定嗎？"
+
+M_UPDATESTARTING="更新已下載 - MCSkin3D 現在將關閉，更新程式將開啟。 請注意，此程式從您的臨時資料夾中執行，因此 Windows（或您的防毒軟體）可能會對此發出警告 - 請不必擔心，這僅僅是為了保持主目錄不受更新檔案的干擾。"
+M_REPORTVIEWER="報告檢視器"
+
+M_GRIDENABLED="顯示網格"
+M_RENDERRESTART="變更繪圖模式需要重新啟動。"
+M_RENDERER="繪圖器"
+M_CLIENTARRAYS="用戶端陣列"
+M_IMMEDIATE="立即模式"
+W_POPOUT="彈出"
+
+E_SKINERROR="嘗試載入皮膚“{0}”時出錯；請刪除此檔案或將其移出資料夾。"
+T_TOGGLECHESTARMOR="顯示/隱藏胸甲"
+T_TOGGLELEFTARMARMOR="顯示/隱藏左臂護甲"
+T_TOGGLERIGHTARMARMOR="顯示/隱藏右臂護甲"
+T_TOGGLELEFTLEGARMOR="顯示/隱藏左腿護甲"
+T_TOGGLERIGHTLEGARMOR="顯示/隱藏右腿護甲"
+
+M_CHESTARMOR="胸甲"
+M_LEFTARMARMOR="左臂護甲"
+M_RIGHTARMARMOR="右臂護甲"
+M_LEFTLEGARMOR="左腿護甲"
+M_RIGHTLEGARMOR="右腿護甲"
+
+C_SCALE="縮放"
+C_CROP="裁剪"
+M_SKINSIZEMISMATCH="此皮膚的尺寸與所選模型預期的尺寸不匹配。 MCSkin3D 可以通過以下兩種方式之一解決此問題：\n\n裁剪：直接調整皮膚尺寸以匹配模型尺寸，而不修改皮膚本身。 請注意，根據尺寸差異，這可能會裁剪掉皮膚的某些部分。 如果您正在將皮膚從 1.7 版本轉換到 1.8 版本，請使用此選項。\n\n縮放：縮放皮膚以適應所需尺寸。\n\n請注意，此為破壞性操作，且無法撤銷。"

@@ -1,0 +1,302 @@
+﻿// C-style comments.
+// First non-comment line must be the following:
+MCSkin3D Language File
+// Following lines are key-value pairs, stored by the program.
+// A line beginning with the pound/sharp/hash sign # are
+// used internally and are not actual language pieces.
+#Name=Deutsch
+// Version is the version of the language file - it does not
+// have any effect other than identification, and does not
+// need to be present.
+#Version=1.0
+// SuppVersion is short for Supported Version, and denotes the version in which this
+// language file was made for. Any other version running this file will throw an error.
+#SuppVersion=1.4
+// Culture is the Windows culture ID for the language.
+// This is REQUIRED to be set properly!
+#Culture="de"
+
+// These lines are not required, they are simply for identification
+// purposes.
+#Author="Paril"
+#AuthorContact="paril@alteredsoftworks.com"
+#AuthorSite="www.alteredsoftworks.com"
+
+// Below this are the key-value pairs; ID=String
+// Note that the quotes are not required, but may be used for readability purposes.
+// Language developers should use this file, and not other languages, to determine the
+// context in which the string is deriving - otherwise, you may lose accuracy of your
+// translation over time (see TranslationParty).
+C_OK="OK"
+C_CANCEL="Abbrechen"
+C_CLOSE="Schließen"
+C_COPYTOCLIPBOARD="In Zwischenablage kopieren"
+
+M_FILE="Datei"
+	M_SAVE="Speichern"
+	M_SAVEAS="Speichern unter"
+	M_SAVEALL="Alle speichern"
+	M_UPLOAD="Skin hochladen..."
+	M_EXIT="Beenden"
+M_EDIT="Bearbeiten"
+	M_UNDO="Rückgängig"
+	M_REDO="Wiederholen"
+	M_TOOL="Werkzeug"
+M_VIEW="Ansicht"
+	M_MODE="Ansichtsmodus"
+		M_PERSPECTIVE="Perspektive (3D)"
+		M_TEXTURE="Textur (2D)"
+		M_HYBRID="Hybrid"
+	M_3D="3D-Einstellungen"
+		M_ANIMATE="Animieren"
+		M_FOLLOWCUR="Maus folgen"
+		M_GRASS="Gras"
+		M_GHOST="Ausgeblendete Teile ghosten"
+		M_MULTISAMPLING="Multisampling"
+	M_2D="2D-Einstellungen"
+		M_ALPHACHECKER="Alpha-Karo"
+		M_OVERLAY="Overlay"
+			M_ENABLEOVERLAY="Aktivieren"
+	M_TRANSMODE="Transparenzmodus"
+		M_OFF="Aus"
+		M_HELMETONLY="Nur Helm"
+		M_ALL="Alle"
+	M_VISIBLEPARTS="Sichtbare Teile"
+		M_HEAD="Kopf"
+		M_HELMET="Helm"
+		M_CHEST="Oberkörper"
+		M_LEFTARM="Linker Arm"
+		M_RIGHTARM="Rechter Arm"
+		M_LEFTLEG="Linkes Bein"
+		M_RIGHTLEG="Rechtes Bein"
+M_OPTIONS="Optionen"
+	M_KEYSHORTCUTS="Tastenkürzel"
+	M_BGCOLOR="Hintergrundfarbe (Neustart erforderlich)"
+	M_USETEXTUREBASES="Texturvorlagen verwenden"
+M_LANGUAGE="Sprache"
+M_HELP="Hilfe"
+	M_CHECKUPDATES="Auf Updates prüfen"
+	M_AUTOUPDATE="Automatisch auf Updates prüfen"
+
+T_TREE_ZOOMOUT="Verkleinern"
+T_TREE_ZOOMIN="Vergrößern"
+T_TREE_IMPORTHERE="Hier importieren..."
+T_TREE_NEWFOLDER="Neuen Ordner hier erstellen..."
+T_TREE_RENAME="Umbenennen..."
+T_TREE_DELETE="Löschen..."
+T_TREE_CLONE="Klonen"
+T_TREE_UPLOAD="Hochladen"
+
+T_SAVE="Speichern"
+T_SAVEALL="Alle speichern"
+T_UNDO="Rückgängig"
+T_REDO="Wiederholen"
+T_PERSPECTIVE="Perspektive"
+T_TEXTURE="Textur"
+T_HYBRID="Hybrid"
+T_SCREENSHOT="Screenshot (Umschalt zum Speichern)"
+T_TOGGLEHEAD="Kopf ein-/ausblenden"
+T_TOGGLEHELMET="Helm ein-/ausblenden"
+T_TOGGLECHEST="Oberkörper ein-/ausblenden"
+T_TOGGLELEFTARM="Linken Arm ein-/ausblenden"
+T_TOGGLERIGHTARM="Rechten Arm ein-/ausblenden"
+T_TOGGLELEFTLEG="Linkes Bein ein-/ausblenden"
+T_TOGGLERIGHTLEG="Rechtes Bein ein-/ausblenden"
+T_SWATCHES="Farbpalette"
+
+M_IMPORT_HERE="Hier importieren..."
+M_NEWFOLDER="Neuer Ordner"
+M_NEWFOLDER_HERE="Neuen Ordner hier erstellen..."
+M_RENAME="Umbenennen..."
+M_DELETE="Löschen..."
+M_CLONE="Klonen"
+
+T_TOOL_CAMERA="Kamera"
+T_TOOL_PENCIL="Bleistift"
+T_TOOL_ERASER="Radiergummi"
+T_TOOL_DROPPER="Pipette"
+T_TOOL_DODGEBURN="Abwedeln/Nachbelichten"
+T_TOOL_DARKENLIGHTEN="Abdunkeln/Aufhellen"
+T_TOOL_BUCKET="Farbeimer"
+T_TOOL_NOISE="Rauschen"
+
+B_MSG_DIRMISSING="Ein Verzeichnis fehlt - meist weil Sie das Programm nicht entpackt haben. Dies ist kein schwerwiegendes Problem, aber Ihnen fehlen dann Vorlagen, Paletten und andere Inhalte."
+B_MSG_UPTODATE="Sie haben die neueste Version!"
+B_MSG_NEWUPDATE="Ein Update ist verfügbar! Möchten Sie jetzt den Updater öffnen?"
+B_MSG_UPLOADERROR="Fehler beim Hochladen des Skins:"
+B_MSG_UPLOADSUCCESS="Skin erfolgreich hochgeladen! Viel Spaß!"
+B_MSG_DELETESKIN="Diesen Skin löschen?\r\nEr wird in den Papierkorb verschoben."
+B_MSG_DELETEFOLDER="Diesen Ordner löschen?\r\nEr wird in den Papierkorb verschoben."
+B_MSG_OVERLAYERROR="Overlay-Bild konnte nicht geladen werden: „{0}“; ist die Auflösung eine Zweierpotenz?"
+B_MSG_UPLOADRES="Sie können zwar hochauflösende Texturen mit MCSkin3D bearbeiten, aber nicht als Skin in Ihr Minecraft-Profil hochladen."
+B_MSG_ANTIALIAS="Starte MCSkin3D neu, um die Multisampling-Optionen zu übernehmen."
+B_MSG_PIXELFORMAT="Ihre Grafikkarte unterstützt leider kein 32-Bit-Pixelformat – das ist derzeit für MCSkin3D erforderlich."
+B_MSG_SHORTCUTEXISTS="Die Tastenkombination „{0}“ wird bereits von „{1}“ verwendet – wird geleert."
+
+B_CAP_QUESTION="Frage"
+B_CAP_SORRY="Entschuldigung"
+
+C_SQUARE="Quadrat"
+C_CIRCLE="Kreis"
+
+O_EXPOSURE="Belichtung:"
+O_INCREMENTAL="Inkrementell"
+O_LIGHTEN="Aufhellen"
+O_DARKEN="Abdunkeln"
+O_DODGE="Abwedeln"
+O_BURN="Nachbelichten"
+Q_THRESHOLD="Schwellwert:"
+
+C_NEW="Neu"
+C_CANTMOVE="Kann nicht verschieben nach"
+C_COPY="Kopieren"
+C_MOVE="Verschieben"
+C_MOVED="Verschoben"
+C_COPYTO="Kopieren nach"
+C_MOVETO="Verschieben nach"
+C_IMPORTTO="Importieren nach"
+
+C_SETTINGSFAILED="Einstellungen konnten nicht geladen werden; Standardeinstellungen wurden geladen."
+
+C_AUTOLOGIN="Automatisch anmelden?"
+C_REMEMBER="Merken?"
+C_USERNAME="Benutzername:"
+C_PASSWORD="Passwort:"
+C_UPLOADTEXT="Zum Hochladen deines Skins musst du dich bei Minecraft.net anmelden. Gib deinen Benutzernamen und dein Passwort ein, um fortzufahren."
+
+C_UPLOADING="Skin wird hochgeladen! Bitte warten..."
+C_SHORTCUTINUSE="Tastenkombination wird bereits verwendet"
+
+S_TREEVIEW_ZOOMIN="Baumansicht vergrößern"
+S_TREEVIEW_ZOOMOUT="Baumansicht verkleinern"
+S_SWATCH_ZOOMIN="Palette vergrößern"
+S_SWATCH_ZOOMOUT="Palette verkleinern"
+S_COLORSWAP="Vordergrund/Hintergrund tauschen"
+S_RENAME="Umbenennen"
+S_CLONE="Knoten klonen"
+S_DELETE="Knoten löschen"
+S_SCREENSHOT_CLIP="Screenshot in Zwischenablage"
+S_SCREENSHOT_SAVE="Screenshot speichern"
+S_TOGGLEVIEW="Ansichtsmodus wechseln"
+S_TOGGLETRANS="Transparenzmodus wechseln"
+
+M_SHORTCUTS="Klicken Sie unten in das Textfeld und drücken Sie die gewünschte Tastenkombination."
+W_OPTIONS="Werkzeugoptionen ein-/ausblenden"
+
+T_CAMERA="Linke Maustaste zum Drehen. Rechte Maustaste/Mausrad zum Zoomen."
+T_PENCIL="Linke Maustaste zum Malen; Rechte/Mittlere Maustaste zum Drehen/Zoomen; Umschalt für Hintergrundfarbe."
+T_DROPPER="Linke Maustaste zum Farbaufnehmen. Rechte/Mittlere Maustaste zum Drehen/Zoomen. Umschalt für Hintergrundfarbe."
+T_DODGEBURN="Linke Maustaste zum Abwedeln/Nachbelichten. Rechte/Mittlere Maustaste zum Drehen/Zoomen. Umschalt wechselt Werkzeug."
+T_DARKENLIGHTEN="Linke Maustaste zum Aufhellen/Abdunkeln. Rechte/Mittlere Maustaste zum Drehen/Zoomen. Umschalt wechselt Werkzeug."
+T_ERASER="Linke Maustaste zum Löschen (transparent). Rechte/Mittlere Maustaste zum Drehen/Zoomen."
+T_FILL="Linke Maustaste zum Füllen. Umschalt für Hintergrundfarbe. Strg sperrt auf Bauteil. Rechte/Mittlere Maustaste zum Drehen/Zoomen."
+T_NOISE="Linke Maustaste zum Anwenden von Rauschen. Rechte/Mittlere Maustaste zum Drehen/Zoomen."
+
+C_UNSAVED="Sie haben ungespeicherte Änderungen. Möchten Sie wirklich beenden?"
+C_UNSAVED_CAPTION="Warten!"
+
+O_HOLDNESS="Deckkraft:"
+
+G_BRUSH="Pinsel"
+G_BRUSHOPTS="Pinseloptionen"
+G_NOISEOPTS="Rauschoptionen"
+G_FILLOPTS="Fülloptionen"
+G_TOOL="Werkzeug"
+
+T_DECRES="Auflösung verringern"
+T_INCRES="Auflösung erhöhen"
+
+M_NEWSKIN="Neuer Skin"
+M_NEWSKIN_HERE="Neuen Skin hier erstellen"
+
+M_SKINERROR="Skin konnte nicht von Minecraft heruntergeladen werden!"
+M_FETCH_NAME="Von Minecraft abrufen"
+M_FETCH_TEXT="MCSkin3D kann den Skin von jedem Minecraft-Konto abrufen und als Datei importieren. Gib den Kontonamen ein und klicke auf ‚Importieren‘!"
+M_PLAYER_NAME="Spielername:"
+
+C_YES="Ja"
+C_NO="Nein"
+D_DONTASK="Nicht mehr fragen"
+M_IRREVERSIBLE="Achtung: Hochauflösende Skins können nicht auf Minecraft.net hochgeladen werden!\n\nDieser Vorgang ist unwiderruflich und alle Rückgängig/Wiederholen-Verläufe gehen verloren. Fortfahren?"
+
+M_TEMP="Sie versuchen, MCSkin3D von einem temporären Speicherort auszuführen. Bitte entpacken Sie das Programm zuerst."
+
+T_RESETCAMERA="Kamera zurücksetzen"
+M_SKINDIRS="Skin-Verzeichnisse"
+M_DYNAMICOVERLAY="Dynamisches Overlay"
+M_DYNAMICOPTIONS="Dynamische Optionen"
+M_LINECOLOR="Linienfarbe"
+M_LINESIZE="Linienstärke"
+M_OVERLAYTEXTSIZE="Textgröße"
+M_TEXTCOLOR="Textfarbe"
+
+U_PIXELSCHANGED="Pixel geändert"
+T_TOOL_STAMP="Stempel"
+T_STAMP="Linksklick zum Stempeln. Umschalt+Klick zum Kopieren eines Bereichs in den Pinsel."
+L_UNDOACTIONS="{0} Aktionen rückgängig"
+L_REDOACTIONS="{0} Aktionen wiederholen"
+
+M_BROWSE="Zu {0} navigieren"
+M_SKIN="Skin"
+M_FOLDER="Ordner"
+
+M_SHARED="Gemeinsame Optionen"
+M_INFINITEMOUSE="Unendliche Maus"
+
+T_SWATCHEDIT="Palette bearbeiten"
+T_DELETESWATCH="Palette löschen"
+T_ADDSWATCH="Palette hinzufügen"
+
+M_EXPT_EXCEPTION="Eine Ausnahme ist aufgetreten!"
+M_EXPT_APPERROR="Anwendungsfehler!"
+M_EXPT_ERRORTEXT="MCSkin3D hat einen Fehler festgestellt und könnte instabil werden. Sie können helfen!\r\n\r\nBitte senden Sie uns einen Fehlerbericht! Der blaue Link unten enthält die Daten. Senden Sie ihn an uns (kontaktiere uns auf PlanetMinecraft) – das hilft uns sehr!"
+M_EXPT_SHOW="Diese Meldung nicht mehr anzeigen"
+M_EXPT_CLOSE="Schließen"
+M_EXPT_VIEW="Bericht anzeigen"
+M_EXPT_HERE="hier"
+
+C_RESTART="Ein Neustart ist erforderlich, um diesen Vorgang durchzuführen!"
+C_RESTART_CAPTION="Neustart erforderlich"
+D_UNSAVED="Sie haben ungespeicherte Skins; das Ändern des Skin-Verzeichnisses erfordert ein Aktualisieren der Liste und Sie verlieren alle ungespeicherten Änderungen. ‚Ja‘ aktualisiert ohne Speichern; ‚Nein‘ wartet auf Neustart; ‚Abbrechen‘ bricht ab."
+D_UNSAVED_CAPTION="Ungespeicherte Änderungen"
+
+M_RENDERSTATS="Renderstatistiken"
+M_GRIDCOLOR="Gitterfarbe"
+M_GRIDOPACITY="Gitterdeckkraft"
+
+M_LOADING="Laden..."
+M_NEWPALETTE="Neue Palette"
+M_DELETEPALETTE="Palette löschen"
+M_CONVERTSWATCH="Palette konvertieren..."
+M_RENAMEPALETTE="Palette umbenennen"
+M_CURRENTFORMAT="Aktuelles Format:"
+M_NEWFORMAT="Neues Format:"
+M_SWATCHQUESTION="Diese Palette wird dauerhaft gelöscht. Fortfahren?"
+M_SWATCHQUESTION_CAPTION="Sind Sie sicher?"
+
+M_UPDATESTARTING="Update heruntergeladen – MCSkin3D wird geschlossen und der Updater geöffnet. Bitte beachten Sie: Das Programm wird aus dem temporären Ordner ausgeführt, daher könnte Windows (oder Ihr Virenscanner) eine Warnung anzeigen – das ist normal."
+M_REPORTVIEWER="Berichtsanzeige"
+
+M_GRIDENABLED="Gitter anzeigen"
+M_RENDERRESTART="Ein Neustart ist erforderlich, um den Rendermodus zu ändern."
+M_RENDERER="Renderer"
+M_CLIENTARRAYS="Client-Arrays"
+M_IMMEDIATE="Sofortmodus"
+W_POPOUT="Ausklappen"
+
+E_SKINERROR="Fehler beim Laden des Skins „{0}“; bitte löschen oder verschieben Sie diese Datei."
+T_TOGGLECHESTARMOR="Brustpanzer ein-/ausblenden"
+T_TOGGLELEFTARMARMOR="Linke Armschiene ein-/ausblenden"
+T_TOGGLERIGHTARMARMOR="Rechte Armschiene ein-/ausblenden"
+T_TOGGLELEFTLEGARMOR="Linke Beinschiene ein-/ausblenden"
+T_TOGGLERIGHTLEGARMOR="Rechte Beinschiene ein-/ausblenden"
+
+M_CHESTARMOR="Brustpanzer"
+M_LEFTARMARMOR="Linke Armschiene"
+M_RIGHTARMARMOR="Rechte Armschiene"
+M_LEFTLEGARMOR="Linke Beinschiene"
+M_RIGHTLEGARMOR="Rechte Beinschiene"
+
+C_SCALE="Skalieren"
+C_CROP="Zuschneiden"
+M_SKINSIZEMISMATCH="Die Größe dieses Skins entspricht nicht der erwarteten Größe für das ausgewählte Modell. MCSkin3D kann dies auf zwei Arten beheben:\n\nZuschneiden: Passt die Größe an das Modell an, ohne den Skin zu ändern. Dies kann Teile abschneiden. Verwenden Sie dies, wenn Sie einen Skin von 1.7 auf 1.8 konvertieren.\n\nSkalieren: Skaliert den Skin auf die gewünschte Größe.\n\nDieser Vorgang ist unwiderruflich und kann nicht rückgängig gemacht werden."

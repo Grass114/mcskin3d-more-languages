@@ -1,0 +1,302 @@
+﻿// C-style comments.
+// First non-comment line must be the following:
+MCSkin3D Language File
+// Following lines are key-value pairs, stored by the program.
+// A line beginning with the pound/sharp/hash sign # are
+// used internally and are not actual language pieces.
+#Name=Polski
+// Version is the version of the language file - it does not
+// have any effect other than identification, and does not
+// need to be present.
+#Version=1.0
+// SuppVersion is short for Supported Version, and denotes the version in which this
+// language file was made for. Any other version running this file will throw an error.
+#SuppVersion=1.4
+// Culture is the Windows culture ID for the language.
+// This is REQUIRED to be set properly!
+#Culture="pl"
+
+// These lines are not required, they are simply for identification
+// purposes.
+#Author="Paril"
+#AuthorContact="paril@alteredsoftworks.com"
+#AuthorSite="www.alteredsoftworks.com"
+
+// Below this are the key-value pairs; ID=String
+// Note that the quotes are not required, but may be used for readability purposes.
+// Language developers should use this file, and not other languages, to determine the
+// context in which the string is deriving - otherwise, you may lose accuracy of your
+// translation over time (see TranslationParty).
+C_OK="OK"
+C_CANCEL="Anuluj"
+C_CLOSE="Zamknij"
+C_COPYTOCLIPBOARD="Kopiuj do schowka"
+
+M_FILE="Plik"
+	M_SAVE="Zapisz"
+	M_SAVEAS="Zapisz jako"
+	M_SAVEALL="Zapisz wszystko"
+	M_UPLOAD="Wyślij skórkę..."
+	M_EXIT="Zamknij"
+M_EDIT="Edycja"
+	M_UNDO="Cofnij"
+	M_REDO="Ponów"
+	M_TOOL="Narzędzie"
+M_VIEW="Widok"
+	M_MODE="Tryb widoku"
+		M_PERSPECTIVE="Perspektywa (3D)"
+		M_TEXTURE="Tekstura (2D)"
+		M_HYBRID="Hybrydowy"
+	M_3D="Ustawienia 3D"
+		M_ANIMATE="Animacja"
+		M_FOLLOWCUR="Podążaj za kursorem"
+		M_GRASS="Trawa"
+		M_GHOST="Duch (ukryte części)"
+		M_MULTISAMPLING="Multisampling"
+	M_2D="Ustawienia 2D"
+		M_ALPHACHECKER="Szachownica alfa"
+		M_OVERLAY="Nakładka"
+			M_ENABLEOVERLAY="Włącz"
+	M_TRANSMODE="Tryb przezroczystości"
+		M_OFF="Wyłączony"
+		M_HELMETONLY="Tylko hełm"
+		M_ALL="Wszystkie"
+	M_VISIBLEPARTS="Widoczne części"
+		M_HEAD="Głowa"
+		M_HELMET="Hełm"
+		M_CHEST="Klatka piersiowa"
+		M_LEFTARM="Lewe ramię"
+		M_RIGHTARM="Prawe ramię"
+		M_LEFTLEG="Lewa noga"
+		M_RIGHTLEG="Prawa noga"
+M_OPTIONS="Opcje"
+	M_KEYSHORTCUTS="Skróty klawiszowe"
+	M_BGCOLOR="Kolor tła (wymagany restart)"
+	M_USETEXTUREBASES="Użyj baz tekstur"
+M_LANGUAGE="Język"
+M_HELP="Pomoc"
+	M_CHECKUPDATES="Sprawdź aktualizacje"
+	M_AUTOUPDATE="Automatycznie sprawdzaj aktualizacje"
+
+T_TREE_ZOOMOUT="Pomniejsz"
+T_TREE_ZOOMIN="Powiększ"
+T_TREE_IMPORTHERE="Importuj tutaj..."
+T_TREE_NEWFOLDER="Nowy folder tutaj..."
+T_TREE_RENAME="Zmień nazwę..."
+T_TREE_DELETE="Usuń..."
+T_TREE_CLONE="Klonuj"
+T_TREE_UPLOAD="Wyślij"
+
+T_SAVE="Zapisz"
+T_SAVEALL="Zapisz wszystko"
+T_UNDO="Cofnij"
+T_REDO="Ponów"
+T_PERSPECTIVE="Perspektywa"
+T_TEXTURE="Tekstura"
+T_HYBRID="Hybrydowy"
+T_SCREENSHOT="Zrzut ekranu (Shift aby zapisać)"
+T_TOGGLEHEAD="Pokaż/ukryj głowę"
+T_TOGGLEHELMET="Pokaż/ukryj hełm"
+T_TOGGLECHEST="Pokaż/ukryj klatkę piersiową"
+T_TOGGLELEFTARM="Pokaż/ukryj lewe ramię"
+T_TOGGLERIGHTARM="Pokaż/ukryj prawe ramię"
+T_TOGGLELEFTLEG="Pokaż/ukryj lewą nogę"
+T_TOGGLERIGHTLEG="Pokaż/ukryj prawą nogę"
+T_SWATCHES="Paleta"
+
+M_IMPORT_HERE="Importuj tutaj..."
+M_NEWFOLDER="Nowy folder"
+M_NEWFOLDER_HERE="Nowy folder tutaj..."
+M_RENAME="Zmień nazwę..."
+M_DELETE="Usuń..."
+M_CLONE="Klonuj"
+
+T_TOOL_CAMERA="Kamera"
+T_TOOL_PENCIL="Ołówek"
+T_TOOL_ERASER="Gumka"
+T_TOOL_DROPPER="Kroplomierz"
+T_TOOL_DODGEBURN="Rozjaśnij/Przyciemnij"
+T_TOOL_DARKENLIGHTEN="Przyciemnij/Rozjaśnij"
+T_TOOL_BUCKET="Wiadro"
+T_TOOL_NOISE="Szum"
+
+B_MSG_DIRMISSING="Brakuje katalogu - zwykle dlatego, że nie wypakowałeś programu. Nie jest to poważny problem, ale zabraknie szablonów, palet i innych treści."
+B_MSG_UPTODATE="Masz najnowszą wersję!"
+B_MSG_NEWUPDATE="Dostępna jest nowa aktualizacja! Czy otworzyć aktualizator teraz?"
+B_MSG_UPLOADERROR="Błąd podczas wysyłania skórki:"
+B_MSG_UPLOADSUCCESS="Skórka wysłana pomyślnie! Miłego użytkowania!"
+B_MSG_DELETESKIN="Usunąć tę skórkę?\r\nZostanie przeniesiona do Kosza."
+B_MSG_DELETEFOLDER="Usunąć ten folder?\r\nZostanie przeniesiony do Kosza."
+B_MSG_OVERLAYERROR="Nie można załadować obrazu nakładki: „{0}“; czy rozdzielczość jest potęgą liczby 2?"
+B_MSG_UPLOADRES="Możesz edytować tekstury o wysokiej rozdzielczości w MCSkin3D, ale nie możesz ich przesłać do swojego profilu Minecraft."
+B_MSG_ANTIALIAS="Uruchom ponownie MCSkin3D, aby zastosować opcje multisamplingu."
+B_MSG_PIXELFORMAT="Twoja karta graficzna nie obsługuje 32-bitowego formatu pikseli - jest to obecnie wymagane dla MCSkin3D."
+B_MSG_SHORTCUTEXISTS="Skrót „{0}“ jest już używany przez „{1}“ — zostanie wyczyszczony."
+
+B_CAP_QUESTION="Pytanie"
+B_CAP_SORRY="Przepraszamy"
+
+C_SQUARE="Kwadrat"
+C_CIRCLE="Koło"
+
+O_EXPOSURE="Ekspozycja:"
+O_INCREMENTAL="Przyrostowy"
+O_LIGHTEN="Rozjaśnij"
+O_DARKEN="Przyciemnij"
+O_DODGE="Rozjaśnij"
+O_BURN="Przyciemnij"
+Q_THRESHOLD="Próg:"
+
+C_NEW="Nowy"
+C_CANTMOVE="Nie można przenieść do"
+C_COPY="Kopiuj"
+C_MOVE="Przenieś"
+C_MOVED="Przeniesiono"
+C_COPYTO="Kopiuj do"
+C_MOVETO="Przenieś do"
+C_IMPORTTO="Importuj do"
+
+C_SETTINGSFAILED="Nie można załadować ustawień; załadowano domyślne."
+
+C_AUTOLOGIN="Automatyczne logowanie?"
+C_REMEMBER="Zapamiętać?"
+C_USERNAME="Nazwa użytkownika:"
+C_PASSWORD="Hasło:"
+C_UPLOADTEXT="Aby przesłać skórkę, musisz zalogować się do Minecraft.net. Wprowadź nazwę użytkownika i hasło, aby kontynuować."
+
+C_UPLOADING="Przesyłanie skórki! Proszę czekać..."
+C_SHORTCUTINUSE="Skrót jest już używany"
+
+S_TREEVIEW_ZOOMIN="Powiększ widok drzewa"
+S_TREEVIEW_ZOOMOUT="Pomniejsz widok drzewa"
+S_SWATCH_ZOOMIN="Powiększ paletę"
+S_SWATCH_ZOOMOUT="Pomniejsz paletę"
+S_COLORSWAP="Zamień pierwszy/tło"
+S_RENAME="Zmień nazwę"
+S_CLONE="Klonuj węzeł"
+S_DELETE="Usuń węzeł"
+S_SCREENSHOT_CLIP="Zrzut do schowka"
+S_SCREENSHOT_SAVE="Zapisz zrzut"
+S_TOGGLEVIEW="Przełącz tryb widoku"
+S_TOGGLETRANS="Przełącz tryb przezroczystości"
+
+M_SHORTCUTS="Kliknij w pole tekstowe poniżej i naciśnij klawisz, który chcesz przypisać."
+W_OPTIONS="Pokaż/ukryj opcje narzędzia"
+
+T_CAMERA="Lewy przycisk do obracania. Prawy przycisk/kółko do zoomu."
+T_PENCIL="Lewy przycisk do rysowania; Prawy/środkowy do obracania/zoomu; Shift dla koloru tła."
+T_DROPPER="Lewy przycisk do pobierania koloru. Prawy/środkowy do obracania/zoomu. Shift dla koloru tła."
+T_DODGEBURN="Lewy przycisk do Rozjaśniania/Przyciemniania. Prawy/środkowy do obracania/zoomu. Shift zmienia narzędzie."
+T_DARKENLIGHTEN="Lewy przycisk do Przyciemniania/Rozjaśniania. Prawy/środkowy do obracania/zoomu. Shift zmienia narzędzie."
+T_ERASER="Lewy przycisk do wymazywania (przezroczyste). Prawy/środkowy do obracania/zoomu."
+T_FILL="Lewy przycisk do wypełniania. Shift dla koloru tła. Ctrl blokuje na części. Prawy/środkowy do obracania/zoomu."
+T_NOISE="Lewy przycisk do nakładania szumu. Prawy/środkowy do obracania/zoomu."
+
+C_UNSAVED="Masz niezapisane zmiany. Czy na pewno chcesz wyjść?"
+C_UNSAVED_CAPTION="Czekaj!"
+
+O_HOLDNESS="Nieprzezroczystość:"
+
+G_BRUSH="Pędzel"
+G_BRUSHOPTS="Opcje pędzla"
+G_NOISEOPTS="Opcje szumu"
+G_FILLOPTS="Opcje wypełniania"
+G_TOOL="Narzędzie"
+
+T_DECRES="Zmniejsz rozdzielczość"
+T_INCRES="Zwiększ rozdzielczość"
+
+M_NEWSKIN="Nowa skórka"
+M_NEWSKIN_HERE="Nowa skórka tutaj"
+
+M_SKINERROR="Nie można pobrać skórki z Minecraft!"
+M_FETCH_NAME="Pobierz z Minecraft"
+M_FETCH_TEXT="MCSkin3D może pobrać skórkę z dowolnego konta Minecraft i zaimportować ją jako plik. Wprowadź nazwę konta i kliknij ‚Importuj‘!"
+M_PLAYER_NAME="Nazwa gracza:"
+
+C_YES="Tak"
+C_NO="Nie"
+D_DONTASK="Nie pytaj ponownie"
+M_IRREVERSIBLE="Uwaga: Skórki o wysokiej rozdzielczości nie mogą być przesłane na Minecraft.net!\n\nTa operacja jest nieodwracalna, a cała historia cofania/ponawiania zostanie utracona. Kontynuować?"
+
+M_TEMP="Próbujesz uruchomić MCSkin3D z lokalizacji tymczasowej. Proszę poprawnie rozpakować program."
+
+T_RESETCAMERA="Resetuj kamerę"
+M_SKINDIRS="Katalogi skórek"
+M_DYNAMICOVERLAY="Dynamiczna nakładka"
+M_DYNAMICOPTIONS="Opcje dynamiczne"
+M_LINECOLOR="Kolor linii"
+M_LINESIZE="Rozmiar linii"
+M_OVERLAYTEXTSIZE="Rozmiar tekstu"
+M_TEXTCOLOR="Kolor tekstu"
+
+U_PIXELSCHANGED="Zmienione piksele"
+T_TOOL_STAMP="Pieczątka"
+T_STAMP="Lewy klik, aby użyć pieczątki. Shift+Klik, aby skopiować obszar do pędzla."
+L_UNDOACTIONS="Cofnięto {0} akcji"
+L_REDOACTIONS="Ponowiono {0} akcji"
+
+M_BROWSE="Przeglądaj do {0}"
+M_SKIN="Skórka"
+M_FOLDER="Folder"
+
+M_SHARED="Opcje wspólne"
+M_INFINITEMOUSE="Nieskończona mysz"
+
+T_SWATCHEDIT="Edytuj paletę"
+T_DELETESWATCH="Usuń paletę"
+T_ADDSWATCH="Dodaj paletę"
+
+M_EXPT_EXCEPTION="Wystąpił wyjątek!"
+M_EXPT_APPERROR="Błąd aplikacji!"
+M_EXPT_ERRORTEXT="MCSkin3D napotkał błąd i może stać się niestabilny. Ale nie martw się, możesz pomóc!\r\n\r\nWyślij nam raport o błędzie! Niebieski link na dole zawiera dane. Wyślij go do nas (skontaktuj się z nami na PlanetMinecraft) – to bardzo pomoże!"
+M_EXPT_SHOW="Nie pokazuj więcej tego komunikatu"
+M_EXPT_CLOSE="Zamknij"
+M_EXPT_VIEW="Wyświetl raport"
+M_EXPT_HERE="tutaj"
+
+C_RESTART="Program musi zostać ponownie uruchomiony, aby wykonać tę operację!"
+C_RESTART_CAPTION="Wymagany restart"
+D_UNSAVED="Masz niezapisane skórki; zmiana katalogu skórek wymaga odświeżenia listy i stracisz wszystkie niezapisane zmiany. ‚Tak‘ odświeża bez zapisu; ‚Nie‘ czeka na restart; ‚Anuluj‘ anuluje."
+D_UNSAVED_CAPTION="Niezapisane zmiany"
+
+M_RENDERSTATS="Statystyki renderowania"
+M_GRIDCOLOR="Kolor siatki"
+M_GRIDOPACITY="Przezroczystość siatki"
+
+M_LOADING="Ładowanie..."
+M_NEWPALETTE="Nowa paleta"
+M_DELETEPALETTE="Usuń paletę"
+M_CONVERTSWATCH="Konwertuj paletę..."
+M_RENAMEPALETTE="Zmień nazwę palety"
+M_CURRENTFORMAT="Obecny format:"
+M_NEWFORMAT="Nowy format:"
+M_SWATCHQUESTION="Ta paleta zostanie trwale usunięta. Kontynuować?"
+M_SWATCHQUESTION_CAPTION="Czy na pewno?"
+
+M_UPDATESTARTING="Aktualizacja pobrana – MCSkin3D zostanie zamknięty, a aktualizator otwarty. Program jest uruchamiany z folderu tymczasowego, więc Windows (lub twój antywirus) może wyświetlić ostrzeżenie – to normalne."
+M_REPORTVIEWER="Przeglądarka raportów"
+
+M_GRIDENABLED="Pokaż siatkę"
+M_RENDERRESTART="Zmiana trybu renderowania wymaga ponownego uruchomienia."
+M_RENDERER="Renderer"
+M_CLIENTARRAYS="Tablice klienta"
+M_IMMEDIATE="Tryb natychmiastowy"
+W_POPOUT="Wysuń"
+
+E_SKINERROR="Błąd podczas ładowania skórki „{0}“; usuń lub przenieś ten plik."
+T_TOGGLECHESTARMOR="Pokaż/ukryj napierśnik"
+T_TOGGLELEFTARMARMOR="Pokaż/ukryj naramiennik lewy"
+T_TOGGLERIGHTARMARMOR="Pokaż/ukryj naramiennik prawy"
+T_TOGGLELEFTLEGARMOR="Pokaż/ukryj nagolennik lewy"
+T_TOGGLERIGHTLEGARMOR="Pokaż/ukryj nagolennik prawy"
+
+M_CHESTARMOR="Napierśnik"
+M_LEFTARMARMOR="Naramiennik lewy"
+M_RIGHTARMARMOR="Naramiennik prawy"
+M_LEFTLEGARMOR="Nagolennik lewy"
+M_RIGHTLEGARMOR="Nagolennik prawy"
+
+C_SCALE="Skaluj"
+C_CROP="Przytnij"
+M_SKINSIZEMISMATCH="Rozmiar tej skórki nie odpowiada oczekiwanemu rozmiarowi dla wybranego modelu. MCSkin3D może rozwiązać ten problem na dwa sposoby:\n\nPrzytnij: Dopasowuje rozmiar do modelu bez modyfikowania skórki. Może to odciąć części. Użyj tego przy konwersji z 1.7 na 1.8.\n\nSkaluj: Skaluje skórkę do żądanego rozmiaru.\n\nTa operacja jest nieodwracalna i nie może być cofnięta."

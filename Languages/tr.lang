@@ -1,0 +1,302 @@
+﻿// C-style comments.
+// First non-comment line must be the following:
+MCSkin3D Language File
+// Following lines are key-value pairs, stored by the program.
+// A line beginning with the pound/sharp/hash sign # are
+// used internally and are not actual language pieces.
+#Name=Türkçe
+// Version is the version of the language file - it does not
+// have any effect other than identification, and does not
+// need to be present.
+#Version=1.0
+// SuppVersion is short for Supported Version, and denotes the version in which this
+// language file was made for. Any other version running this file will throw an error.
+#SuppVersion=1.4
+// Culture is the Windows culture ID for the language.
+// This is REQUIRED to be set properly!
+#Culture="tr"
+
+// These lines are not required, they are simply for identification
+// purposes.
+#Author="Paril"
+#AuthorContact="paril@alteredsoftworks.com"
+#AuthorSite="www.alteredsoftworks.com"
+
+// Below this are the key-value pairs; ID=String
+// Note that the quotes are not required, but may be used for readability purposes.
+// Language developers should use this file, and not other languages, to determine the
+// context in which the string is deriving - otherwise, you may lose accuracy of your
+// translation over time (see TranslationParty).
+C_OK="Tamam"
+C_CANCEL="İptal"
+C_CLOSE="Kapat"
+C_COPYTOCLIPBOARD="Panoya kopyala"
+
+M_FILE="Dosya"
+	M_SAVE="Kaydet"
+	M_SAVEAS="Farklı kaydet"
+	M_SAVEALL="Tümünü kaydet"
+	M_UPLOAD="Skin yükle..."
+	M_EXIT="Çık"
+M_EDIT="Düzenle"
+	M_UNDO="Geri al"
+	M_REDO="Yinele"
+	M_TOOL="Araç"
+M_VIEW="Görünüm"
+	M_MODE="Görünüm modu"
+		M_PERSPECTIVE="Perspektif (3D)"
+		M_TEXTURE="Doku (2D)"
+		M_HYBRID="Karma"
+	M_3D="3D Ayarları"
+		M_ANIMATE="Canlandır"
+		M_FOLLOWCUR="İmleci takip et"
+		M_GRASS="Çim"
+		M_GHOST="Gizli parçaları hayalet göster"
+		M_MULTISAMPLING="Çoklu örnekleme"
+	M_2D="2D Ayarları"
+		M_ALPHACHECKER="Alfa dama"
+		M_OVERLAY="Katman"
+			M_ENABLEOVERLAY="Etkinleştir"
+	M_TRANSMODE="Şeffaflık modu"
+		M_OFF="Kapalı"
+		M_HELMETONLY="Sadece kask"
+		M_ALL="Tümü"
+	M_VISIBLEPARTS="Görünen parçalar"
+		M_HEAD="Kafa"
+		M_HELMET="Kask"
+		M_CHEST="Gövde"
+		M_LEFTARM="Sol kol"
+		M_RIGHTARM="Sağ kol"
+		M_LEFTLEG="Sol bacak"
+		M_RIGHTLEG="Sağ bacak"
+M_OPTIONS="Seçenekler"
+	M_KEYSHORTCUTS="Klavye kısayolları"
+	M_BGCOLOR="Arka plan rengi (yeniden başlatma gerekli)"
+	M_USETEXTUREBASES="Doku tabanlarını kullan"
+M_LANGUAGE="Dil"
+M_HELP="Yardım"
+	M_CHECKUPDATES="Güncellemeleri kontrol et"
+	M_AUTOUPDATE="Güncellemeleri otomatik kontrol et"
+
+T_TREE_ZOOMOUT="Uzaklaştır"
+T_TREE_ZOOMIN="Yakınlaştır"
+T_TREE_IMPORTHERE="Buraya aktar..."
+T_TREE_NEWFOLDER="Buraya yeni klasör..."
+T_TREE_RENAME="Yeniden adlandır..."
+T_TREE_DELETE="Sil..."
+T_TREE_CLONE="Kopyala"
+T_TREE_UPLOAD="Yükle"
+
+T_SAVE="Kaydet"
+T_SAVEALL="Tümünü kaydet"
+T_UNDO="Geri al"
+T_REDO="Yinele"
+T_PERSPECTIVE="Perspektif"
+T_TEXTURE="Doku"
+T_HYBRID="Karma"
+T_SCREENSHOT="Ekran görüntüsü (Shift ile kaydet)"
+T_TOGGLEHEAD="Kafayı göster/gizle"
+T_TOGGLEHELMET="Kaskı göster/gizle"
+T_TOGGLECHEST="Gövdeyi göster/gizle"
+T_TOGGLELEFTARM="Sol kolu göster/gizle"
+T_TOGGLERIGHTARM="Sağ kolu göster/gizle"
+T_TOGGLELEFTLEG="Sol bacağı göster/gizle"
+T_TOGGLERIGHTLEG="Sağ bacağı göster/gizle"
+T_SWATCHES="Renk paleti"
+
+M_IMPORT_HERE="Buraya aktar..."
+M_NEWFOLDER="Yeni klasör"
+M_NEWFOLDER_HERE="Buraya yeni klasör..."
+M_RENAME="Yeniden adlandır..."
+M_DELETE="Sil..."
+M_CLONE="Kopyala"
+
+T_TOOL_CAMERA="Kamera"
+T_TOOL_PENCIL="Kalem"
+T_TOOL_ERASER="Silgi"
+T_TOOL_DROPPER="Damlalık"
+T_TOOL_DODGEBURN="Aç/koyulaştır"
+T_TOOL_DARKENLIGHTEN="Koyulaştır/aç"
+T_TOOL_BUCKET="Kova"
+T_TOOL_NOISE="Gürültü"
+
+B_MSG_DIRMISSING="Bir dizin eksik - genellikle programı açmadığınız için. Bu ciddi bir sorun değil, ancak şablonlar, paletler ve diğer içerikler eksik olacaktır."
+B_MSG_UPTODATE="En yeni sürüme sahipsiniz!"
+B_MSG_NEWUPDATE="Yeni bir güncelleme mevcut! Güncelleyiciyi şimdi açmak ister misiniz?"
+B_MSG_UPLOADERROR="Skin yüklenirken hata oluştu:"
+B_MSG_UPLOADSUCCESS="Skin başarıyla yüklendi! İyi eğlenceler!"
+B_MSG_DELETESKIN="Bu skin silinsin mi?\r\nGeri dönüşüm kutusuna taşınacak."
+B_MSG_DELETEFOLDER="Bu klasör silinsin mi?\r\nGeri dönüşüm kutusuna taşınacak."
+B_MSG_OVERLAYERROR="Katman görüntüsü yüklenemedi: „{0}“; çözünürlük 2'nin katı mı?"
+B_MSG_UPLOADRES="MCSkin3D ile yüksek çözünürlüklü dokuları düzenleyebilirsiniz, ancak bunları Minecraft profilinize yükleyemezsiniz."
+B_MSG_ANTIALIAS="Çoklu örnekleme seçeneklerini uygulamak için MCSkin3D'yi yeniden başlatın."
+B_MSG_PIXELFORMAT="Ekran kartınız 32-bit piksel formatını desteklemiyor - bu şu anda MCSkin3D için gerekli."
+B_MSG_SHORTCUTEXISTS="„{0}“ kısayolu zaten „{1}“ tarafından kullanılıyor — temizlenecek."
+
+B_CAP_QUESTION="Soru"
+B_CAP_SORRY="Üzgünüm"
+
+C_SQUARE="Kare"
+C_CIRCLE="Daire"
+
+O_EXPOSURE="Pozlama:"
+O_INCREMENTAL="Kademeli"
+O_LIGHTEN="Aç"
+O_DARKEN="Koyulaştır"
+O_DODGE="Aç"
+O_BURN="Koyulaştır"
+Q_THRESHOLD="Eşik:"
+
+C_NEW="Yeni"
+C_CANTMOVE="Taşınamaz"
+C_COPY="Kopyala"
+C_MOVE="Taşı"
+C_MOVED="Taşındı"
+C_COPYTO="Kopyala"
+C_MOVETO="Taşı"
+C_IMPORTTO="İçe aktar"
+
+C_SETTINGSFAILED="Ayarlar yüklenemedi; varsayılan ayarlar yüklendi."
+
+C_AUTOLOGIN="Otomatik giriş?"
+C_REMEMBER="Hatırla?"
+C_USERNAME="Kullanıcı adı:"
+C_PASSWORD="Şifre:"
+C_UPLOADTEXT="Skinini yüklemek için Minecraft.net'e giriş yapmalısın. Devam etmek için kullanıcı adını ve şifreni gir."
+
+C_UPLOADING="Skin yükleniyor! Lütfen bekleyin..."
+C_SHORTCUTINUSE="Kısayol zaten kullanımda"
+
+S_TREEVIEW_ZOOMIN="Ağaç görünümünü yakınlaştır"
+S_TREEVIEW_ZOOMOUT="Ağaç görünümünü uzaklaştır"
+S_SWATCH_ZOOMIN="Paleti yakınlaştır"
+S_SWATCH_ZOOMOUT="Paleti uzaklaştır"
+S_COLORSWAP="Ön/arka planı değiştir"
+S_RENAME="Yeniden adlandır"
+S_CLONE="Düğümü kopyala"
+S_DELETE="Düğümü sil"
+S_SCREENSHOT_CLIP="Ekran görüntüsünü panoya al"
+S_SCREENSHOT_SAVE="Ekran görüntüsünü kaydet"
+S_TOGGLEVIEW="Görünüm modunu değiştir"
+S_TOGGLETRANS="Şeffaflık modunu değiştir"
+
+M_SHORTCUTS="Aşağıdaki metin kutusuna tıkla ve atamak istediğin tuşa bas."
+W_OPTIONS="Araç seçeneklerini göster/gizle"
+
+T_CAMERA="Döndürmek için sol tuş. Yakınlaştırmak için sağ tuş/tekerlek."
+T_PENCIL="Çizmek için sol tuş; Döndürmek/yakınlaştırmak için sağ/orta tuş; Arka plan rengi için Shift."
+T_DROPPER="Renk almak için sol tuş. Döndürmek/yakınlaştırmak için sağ/orta tuş. Arka plan için Shift."
+T_DODGEBURN="Aç/Koyulaştır için sol tuş. Döndürmek/yakınlaştırmak için sağ/orta tuş. Shift aracı değiştirir."
+T_DARKENLIGHTEN="Koyulaştır/Aç için sol tuş. Döndürmek/yakınlaştırmak için sağ/orta tuş. Shift aracı değiştirir."
+T_ERASER="Silme (şeffaf) için sol tuş. Döndürmek/yakınlaştırmak için sağ/orta tuş."
+T_FILL="Doldurmak için sol tuş. Arka plan için Shift. Parçayı kilitlemek için Ctrl. Döndürmek/yakınlaştırmak için sağ/orta tuş."
+T_NOISE="Gürültü uygulamak için sol tuş. Döndürmek/yakınlaştırmak için sağ/orta tuş."
+
+C_UNSAVED="Kaydedilmemiş değişiklikleriniz var. Çıkmak istediğinize emin misiniz?"
+C_UNSAVED_CAPTION="Bekle!"
+
+O_HOLDNESS="Opaklık:"
+
+G_BRUSH="Fırça"
+G_BRUSHOPTS="Fırça seçenekleri"
+G_NOISEOPTS="Gürültü seçenekleri"
+G_FILLOPTS="Doldurma seçenekleri"
+G_TOOL="Araç"
+
+T_DECRES="Çözünürlüğü azalt"
+T_INCRES="Çözünürlüğü artır"
+
+M_NEWSKIN="Yeni skin"
+M_NEWSKIN_HERE="Buraya yeni skin"
+
+M_SKINERROR="Skin Minecraft'tan indirilemedi!"
+M_FETCH_NAME="Minecraft'tan al"
+M_FETCH_TEXT="MCSkin3D, herhangi bir Minecraft hesabından skin alıp dosya olarak içe aktarabilir. Hesap adını gir ve ‚İçe aktar‘a tıkla!"
+M_PLAYER_NAME="Oyuncu adı:"
+
+C_YES="Evet"
+C_NO="Hayır"
+D_DONTASK="Bir daha sorma"
+M_IRREVERSIBLE="Uyarı: Yüksek çözünürlüklü skinler Minecraft.net'e yüklenemez!\n\nBu işlem geri alınamaz ve tüm geri al/yinele geçmişi kaybolacaktır. Devam etmek istiyor musunuz?"
+
+M_TEMP="MCSkin3D'yi geçici bir konumdan çalıştırmaya çalışıyorsunuz. Lütfen programı doğru şekilde açın."
+
+T_RESETCAMERA="Kamerayı sıfırla"
+M_SKINDIRS="Skin dizinleri"
+M_DYNAMICOVERLAY="Dinamik katman"
+M_DYNAMICOPTIONS="Dinamik seçenekler"
+M_LINECOLOR="Çizgi rengi"
+M_LINESIZE="Çizgi boyutu"
+M_OVERLAYTEXTSIZE="Metin boyutu"
+M_TEXTCOLOR="Metin rengi"
+
+U_PIXELSCHANGED="Piksel değişti"
+T_TOOL_STAMP="Damga"
+T_STAMP="Damgalamak için sol tık. Shift+Tık ile bir alanı fırçaya kopyala."
+L_UNDOACTIONS="{0} işlem geri alındı"
+L_REDOACTIONS="{0} işlem yinelendi"
+
+M_BROWSE="{0} konumuna git"
+M_SKIN="Skin"
+M_FOLDER="Klasör"
+
+M_SHARED="Paylaşılan seçenekler"
+M_INFINITEMOUSE="Sınırsız fare"
+
+T_SWATCHEDIT="Paleti düzenle"
+T_DELETESWATCH="Paleti sil"
+T_ADDSWATCH="Palet ekle"
+
+M_EXPT_EXCEPTION="Bir hata oluştu!"
+M_EXPT_APPERROR="Uygulama hatası!"
+M_EXPT_ERRORTEXT="MCSkin3D bir hatayla karşılaştı ve dengesizleşebilir. Ama endişelenme, yardımcı olabilirsin!\r\n\r\nLütfen bize hata raporu gönder! Alttaki mavi link rapor verilerini içerir. Bize gönderin (PlanetMinecraft üzerinden bize ulaşın) – bu çok yardımcı olur!"
+M_EXPT_SHOW="Bu mesajı bir daha gösterme"
+M_EXPT_CLOSE="Kapat"
+M_EXPT_VIEW="Raporu görüntüle"
+M_EXPT_HERE="burada"
+
+C_RESTART="Bu işlemi gerçekleştirmek için programın yeniden başlatılması gerekiyor!"
+C_RESTART_CAPTION="Yeniden başlatma gerekli"
+D_UNSAVED="Kaydedilmemiş skinleriniz var; skin dizinini değiştirmek liste yenilemesi gerektirir ve tüm kaydedilmemiş değişiklikleri kaybedersiniz. ‚Evet‘ kaydetmeden yeniler; ‚Hayır‘ yeniden başlatmayı bekler; ‚İptal‘ işlemi iptal eder."
+D_UNSAVED_CAPTION="Kaydedilmemiş değişiklikler"
+
+M_RENDERSTATS="Render istatistikleri"
+M_GRIDCOLOR="Izgara rengi"
+M_GRIDOPACITY="Izgara opaklığı"
+
+M_LOADING="Yükleniyor..."
+M_NEWPALETTE="Yeni palet"
+M_DELETEPALETTE="Paleti sil"
+M_CONVERTSWATCH="Paleti dönüştür..."
+M_RENAMEPALETTE="Paleti yeniden adlandır"
+M_CURRENTFORMAT="Mevcut format:"
+M_NEWFORMAT="Yeni format:"
+M_SWATCHQUESTION="Bu palet kalıcı olarak silinecek. Devam etmek istiyor musunuz?"
+M_SWATCHQUESTION_CAPTION="Emin misiniz?"
+
+M_UPDATESTARTING="Güncelleme indirildi – MCSkin3D kapatılacak ve güncelleyici açılacak. Program geçici klasörden çalıştırılıyor, bu nedenle Windows (veya antivirüs) bir uyarı gösterebilir – bu normaldir."
+M_REPORTVIEWER="Rapor görüntüleyici"
+
+M_GRIDENABLED="Izgarayı göster"
+M_RENDERRESTART="Render modunu değiştirmek için yeniden başlatma gerekir."
+M_RENDERER="Renderlayıcı"
+M_CLIENTARRAYS="İstemci dizileri"
+M_IMMEDIATE="Anlık mod"
+W_POPOUT="Aç"
+
+E_SKINERROR="„{0}“ skin yüklenirken hata oluştu; lütfen bu dosyayı silin veya taşıyın."
+T_TOGGLECHESTARMOR="Göğüslüğü göster/gizle"
+T_TOGGLELEFTARMARMOR="Sol omuzluğu göster/gizle"
+T_TOGGLERIGHTARMARMOR="Sağ omuzluğu göster/gizle"
+T_TOGGLELEFTLEGARMOR="Sol dizliği göster/gizle"
+T_TOGGLERIGHTLEGARMOR="Sağ dizliği göster/gizle"
+
+M_CHESTARMOR="Göğüslük"
+M_LEFTARMARMOR="Sol omuzluk"
+M_RIGHTARMARMOR="Sağ omuzluk"
+M_LEFTLEGARMOR="Sol dizlik"
+M_RIGHTLEGARMOR="Sağ dizlik"
+
+C_SCALE="Ölçekle"
+C_CROP="Kırp"
+M_SKINSIZEMISMATCH="Bu skinin boyutu, seçilen model için beklenen boyutla eşleşmiyor. MCSkin3D bunu iki şekilde çözebilir:\n\nKırp: Skin değiştirilmeden modele uyacak şekilde ayarlar. Bu bazı kısımları kesebilir. Skin'i 1.7'den 1.8'e dönüştürürken bunu kullanın.\n\nÖlçekle: Skin'i istenen boyuta ölçekler.\n\nBu işlem geri alınamaz ve iptal edilemez."

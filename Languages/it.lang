@@ -1,0 +1,302 @@
+﻿// C-style comments.
+// First non-comment line must be the following:
+MCSkin3D Language File
+// Following lines are key-value pairs, stored by the program.
+// A line beginning with the pound/sharp/hash sign # are
+// used internally and are not actual language pieces.
+#Name=Italiano
+// Version is the version of the language file - it does not
+// have any effect other than identification, and does not
+// need to be present.
+#Version=1.0
+// SuppVersion is short for Supported Version, and denotes the version in which this
+// language file was made for. Any other version running this file will throw an error.
+#SuppVersion=1.4
+// Culture is the Windows culture ID for the language.
+// This is REQUIRED to be set properly!
+#Culture="it"
+
+// These lines are not required, they are simply for identification
+// purposes.
+#Author="Paril"
+#AuthorContact="paril@alteredsoftworks.com"
+#AuthorSite="www.alteredsoftworks.com"
+
+// Below this are the key-value pairs; ID=String
+// Note that the quotes are not required, but may be used for readability purposes.
+// Language developers should use this file, and not other languages, to determine the
+// context in which the string is deriving - otherwise, you may lose accuracy of your
+// translation over time (see TranslationParty).
+C_OK="OK"
+C_CANCEL="Annulla"
+C_CLOSE="Chiudi"
+C_COPYTOCLIPBOARD="Copia negli appunti"
+
+M_FILE="File"
+	M_SAVE="Salva"
+	M_SAVEAS="Salva con nome"
+	M_SAVEALL="Salva tutto"
+	M_UPLOAD="Carica skin..."
+	M_EXIT="Esci"
+M_EDIT="Modifica"
+	M_UNDO="Annulla"
+	M_REDO="Ripristina"
+	M_TOOL="Strumento"
+M_VIEW="Visualizza"
+	M_MODE="Modalità visualizzazione"
+		M_PERSPECTIVE="Prospettiva (3D)"
+		M_TEXTURE="Textura (2D)"
+		M_HYBRID="Ibrido"
+	M_3D="Impostazioni 3D"
+		M_ANIMATE="Animazione"
+		M_FOLLOWCUR="Segui cursore"
+		M_GRASS="Erba"
+		M_GHOST="Fantasma (parti nascoste)"
+		M_MULTISAMPLING="Multicampionamento"
+	M_2D="Impostazioni 2D"
+		M_ALPHACHECKER="Scacchiera alfa"
+		M_OVERLAY="Sovrapposizione"
+			M_ENABLEOVERLAY="Attiva"
+	M_TRANSMODE="Modalità trasparenza"
+		M_OFF="Spento"
+		M_HELMETONLY="Solo elmo"
+		M_ALL="Tutti"
+	M_VISIBLEPARTS="Parti visibili"
+		M_HEAD="Testa"
+		M_HELMET="Elmo"
+		M_CHEST="Torso"
+		M_LEFTARM="Braccio sinistro"
+		M_RIGHTARM="Braccio destro"
+		M_LEFTLEG="Gamba sinistra"
+		M_RIGHTLEG="Gamba destra"
+M_OPTIONS="Opzioni"
+	M_KEYSHORTCUTS="Scorciatoie tastiera"
+	M_BGCOLOR="Colore sfondo (riavvio necessario)"
+	M_USETEXTUREBASES="Usa basi texture"
+M_LANGUAGE="Lingua"
+M_HELP="Aiuto"
+	M_CHECKUPDATES="Cerca aggiornamenti"
+	M_AUTOUPDATE="Cerca automaticamente aggiornamenti"
+
+T_TREE_ZOOMOUT="Riduci"
+T_TREE_ZOOMIN="Ingrandisci"
+T_TREE_IMPORTHERE="Importa qui..."
+T_TREE_NEWFOLDER="Nuova cartella qui..."
+T_TREE_RENAME="Rinomina..."
+T_TREE_DELETE="Elimina..."
+T_TREE_CLONE="Clona"
+T_TREE_UPLOAD="Carica"
+
+T_SAVE="Salva"
+T_SAVEALL="Salva tutto"
+T_UNDO="Annulla"
+T_REDO="Ripristina"
+T_PERSPECTIVE="Prospettiva"
+T_TEXTURE="Textura"
+T_HYBRID="Ibrido"
+T_SCREENSHOT="Screenshot (Shift per salvare)"
+T_TOGGLEHEAD="Mostra/nascondi testa"
+T_TOGGLEHELMET="Mostra/nascondi elmo"
+T_TOGGLECHEST="Mostra/nascondi torso"
+T_TOGGLELEFTARM="Mostra/nascondi braccio sinistro"
+T_TOGGLERIGHTARM="Mostra/nascondi braccio destro"
+T_TOGGLELEFTLEG="Mostra/nascondi gamba sinistra"
+T_TOGGLERIGHTLEG="Mostra/nascondi gamba destra"
+T_SWATCHES="Tavolozza"
+
+M_IMPORT_HERE="Importa qui..."
+M_NEWFOLDER="Nuova cartella"
+M_NEWFOLDER_HERE="Nuova cartella qui..."
+M_RENAME="Rinomina..."
+M_DELETE="Elimina..."
+M_CLONE="Clona"
+
+T_TOOL_CAMERA="Fotocamera"
+T_TOOL_PENCIL="Matita"
+T_TOOL_ERASER="Gomma"
+T_TOOL_DROPPER="Contagocce"
+T_TOOL_DODGEBURN="Schiarisci/Scura"
+T_TOOL_DARKENLIGHTEN="Oscura/Illumina"
+T_TOOL_BUCKET="Secchio"
+T_TOOL_NOISE="Rumore"
+
+B_MSG_DIRMISSING="Una directory manca - probabilmente perché non hai estratto il programma. Non è un problema grave, ma perderai modelli, tavolozze e altri contenuti."
+B_MSG_UPTODATE="Hai la versione più recente!"
+B_MSG_NEWUPDATE="Un nuovo aggiornamento è disponibile! Vuoi aprire l'aggiornatore ora?"
+B_MSG_UPLOADERROR="Errore durante il caricamento della skin:"
+B_MSG_UPLOADSUCCESS="Skin caricata con successo! Buon divertimento!"
+B_MSG_DELETESKIN="Eliminare questa skin?\r\nSarà spostata nel Cestino."
+B_MSG_DELETEFOLDER="Eliminare questa cartella?\r\nSarà spostata nel Cestino."
+B_MSG_OVERLAYERROR="Impossibile caricare l'immagine di sovrapposizione: „{0}“; la risoluzione è una potenza di 2?"
+B_MSG_UPLOADRES="Puoi modificare texture ad alta risoluzione con MCSkin3D, ma non puoi caricarle sul tuo profilo Minecraft."
+B_MSG_ANTIALIAS="Riavvia MCSkin3D per applicare le opzioni di multisampling."
+B_MSG_PIXELFORMAT="La tua scheda grafica non supporta il formato pixel a 32 bit - questo è attualmente necessario per MCSkin3D."
+B_MSG_SHORTCUTEXISTS="La scorciatoia „{0}“ è già in uso da „{1}“ — verrà cancellata."
+
+B_CAP_QUESTION="Domanda"
+B_CAP_SORRY="Spiacente"
+
+C_SQUARE="Quadrato"
+C_CIRCLE="Cerchio"
+
+O_EXPOSURE="Esposizione:"
+O_INCREMENTAL="Incrementale"
+O_LIGHTEN="Illumina"
+O_DARKEN="Oscura"
+O_DODGE="Schiarisci"
+O_BURN="Scura"
+Q_THRESHOLD="Soglia:"
+
+C_NEW="Nuovo"
+C_CANTMOVE="Impossibile spostare in"
+C_COPY="Copia"
+C_MOVE="Sposta"
+C_MOVED="Spostato"
+C_COPYTO="Copia in"
+C_MOVETO="Sposta in"
+C_IMPORTTO="Importa in"
+
+C_SETTINGSFAILED="Impossibile caricare le impostazioni; sono state caricate quelle predefinite."
+
+C_AUTOLOGIN="Accesso automatico?"
+C_REMEMBER="Ricorda?"
+C_USERNAME="Nome utente:"
+C_PASSWORD="Password:"
+C_UPLOADTEXT="Per caricare la skin, devi accedere a Minecraft.net. Inserisci il tuo nome utente e password per continuare."
+
+C_UPLOADING="Caricamento della skin in corso! Attendere..."
+C_SHORTCUTINUSE="Scorciatoia già in uso"
+
+S_TREEVIEW_ZOOMIN="Ingrandisci vista ad albero"
+S_TREEVIEW_ZOOMOUT="Riduci vista ad albero"
+S_SWATCH_ZOOMIN="Ingrandisci tavolozza"
+S_SWATCH_ZOOMOUT="Riduci tavolozza"
+S_COLORSWAP="Scambia primo/secondo piano"
+S_RENAME="Rinomina"
+S_CLONE="Clona nodo"
+S_DELETE="Elimina nodo"
+S_SCREENSHOT_CLIP="Screenshot negli appunti"
+S_SCREENSHOT_SAVE="Salva screenshot"
+S_TOGGLEVIEW="Cambia modalità visualizzazione"
+S_TOGGLETRANS="Cambia modalità trasparenza"
+
+M_SHORTCUTS="Clicca sulla casella di testo qui sotto e premi il tasto che desideri assegnare."
+W_OPTIONS="Mostra/nascondi opzioni strumento"
+
+T_CAMERA="Tasto sinistro per ruotare. Tasto destro/rotellina per zoomare."
+T_PENCIL="Tasto sinistro per disegnare; Tasto destro/centrale per ruotare/zoomare; Shift per colore di sfondo."
+T_DROPPER="Tasto sinistro per prelevare colore. Tasto destro/centrale per ruotare/zoomare. Shift per colore di sfondo."
+T_DODGEBURN="Tasto sinistro per Schiarisci/Scura. Tasto destro/centrale per ruotare/zoomare. Shift cambia strumento."
+T_DARKENLIGHTEN="Tasto sinistro per Illumina/Oscura. Tasto destro/centrale per ruotare/zoomare. Shift cambia strumento."
+T_ERASER="Tasto sinistro per cancellare (trasparente). Tasto destro/centrale per ruotare/zoomare."
+T_FILL="Tasto sinistro per riempire. Shift per colore di sfondo. Ctrl blocca sulla parte. Tasto destro/centrale per ruotare/zoomare."
+T_NOISE="Tasto sinistro per applicare rumore. Tasto destro/centrale per ruotare/zoomare."
+
+C_UNSAVED="Hai modifiche non salvate. Sei sicuro di voler uscire?"
+C_UNSAVED_CAPTION="Aspetta!"
+
+O_HOLDNESS="Opacità:"
+
+G_BRUSH="Pennello"
+G_BRUSHOPTS="Opzioni pennello"
+G_NOISEOPTS="Opzioni rumore"
+G_FILLOPTS="Opzioni riempimento"
+G_TOOL="Strumento"
+
+T_DECRES="Riduci risoluzione"
+T_INCRES="Aumenta risoluzione"
+
+M_NEWSKIN="Nuova skin"
+M_NEWSKIN_HERE="Nuova skin qui"
+
+M_SKINERROR="Impossibile scaricare la skin da Minecraft!"
+M_FETCH_NAME="Recupera da Minecraft"
+M_FETCH_TEXT="MCSkin3D può recuperare la skin da qualsiasi account Minecraft e importarla come file. Inserisci il nome dell'account e clicca su ‚Importa‘!"
+M_PLAYER_NAME="Nome giocatore:"
+
+C_YES="Sì"
+C_NO="No"
+D_DONTASK="Non chiedere più"
+M_IRREVERSIBLE="Attenzione: Le skin ad alta risoluzione non possono essere caricate su Minecraft.net!\n\nQuesta operazione è irreversibile e tutta la cronologia di annullamento/ripetizione andrà persa. Continuare?"
+
+M_TEMP="Stai tentando di eseguire MCSkin3D da una posizione temporanea. Estrai correttamente il programma."
+
+T_RESETCAMERA="Reimposta fotocamera"
+M_SKINDIRS="Directory skin"
+M_DYNAMICOVERLAY="Sovrapposizione dinamica"
+M_DYNAMICOPTIONS="Opzioni dinamiche"
+M_LINECOLOR="Colore linea"
+M_LINESIZE="Dimensione linea"
+M_OVERLAYTEXTSIZE="Dimensione testo"
+M_TEXTCOLOR="Colore testo"
+
+U_PIXELSCHANGED="Pixel modificati"
+T_TOOL_STAMP="Timbro"
+T_STAMP="Clic sinistro per timbrare. Shift+Clic per copiare un'area nel pennello."
+L_UNDOACTIONS="{0} azioni annullate"
+L_REDOACTIONS="{0} azioni ripristinate"
+
+M_BROWSE="Sfoglia per {0}"
+M_SKIN="Skin"
+M_FOLDER="Cartella"
+
+M_SHARED="Opzioni condivise"
+M_INFINITEMOUSE="Mouse infinito"
+
+T_SWATCHEDIT="Modifica tavolozza"
+T_DELETESWATCH="Elimina tavolozza"
+T_ADDSWATCH="Aggiungi tavolozza"
+
+M_EXPT_EXCEPTION="Si è verificata un'eccezione!"
+M_EXPT_APPERROR="Errore dell'applicazione!"
+M_EXPT_ERRORTEXT="MCSkin3D ha riscontrato un errore e potrebbe diventare instabile. Ma non preoccuparti, puoi aiutarci!\r\n\r\nInviaci un rapporto di errore! Il link blu in basso contiene i dati. Inviacelo (contattaci su PlanetMinecraft) – ci aiuterà molto!"
+M_EXPT_SHOW="Non mostrare più questo messaggio"
+M_EXPT_CLOSE="Chiudi"
+M_EXPT_VIEW="Visualizza rapporto"
+M_EXPT_HERE="qui"
+
+C_RESTART="Il programma deve essere riavviato per eseguire questa operazione!"
+C_RESTART_CAPTION="Riavvio necessario"
+D_UNSAVED="Hai skin non salvate; cambiare la directory delle skin richiede un aggiornamento della lista e perderai tutte le modifiche non salvate. ‚Sì‘ aggiorna senza salvare; ‚No‘ attende il riavvio; ‚Annulla‘ annulla."
+D_UNSAVED_CAPTION="Modifiche non salvate"
+
+M_RENDERSTATS="Statistiche di rendering"
+M_GRIDCOLOR="Colore griglia"
+M_GRIDOPACITY="Opacità griglia"
+
+M_LOADING="Caricamento..."
+M_NEWPALETTE="Nuova tavolozza"
+M_DELETEPALETTE="Elimina tavolozza"
+M_CONVERTSWATCH="Converti tavolozza..."
+M_RENAMEPALETTE="Rinomina tavolozza"
+M_CURRENTFORMAT="Formato attuale:"
+M_NEWFORMAT="Nuovo formato:"
+M_SWATCHQUESTION="Questa tavolozza sarà eliminata definitivamente. Continuare?"
+M_SWATCHQUESTION_CAPTION="Sei sicuro?"
+
+M_UPDATESTARTING="Aggiornamento scaricato – MCSkin3D verrà chiuso e l'aggiornatore verrà aperto. Il programma viene eseguito dalla cartella temporanea, quindi Windows (o il tuo antivirus) potrebbe mostrare un avviso – è normale."
+M_REPORTVIEWER="Visualizzatore rapporti"
+
+M_GRIDENABLED="Mostra griglia"
+M_RENDERRESTART="È necessario riavviare per cambiare la modalità di rendering."
+M_RENDERER="Renderer"
+M_CLIENTARRAYS="Array client"
+M_IMMEDIATE="Modalità immediata"
+W_POPOUT="Estrai"
+
+E_SKINERROR="Errore durante il caricamento della skin „{0}“; elimina o sposta questo file."
+T_TOGGLECHESTARMOR="Mostra/nascondi corazza"
+T_TOGGLELEFTARMARMOR="Mostra/nascondi spallaccio sinistro"
+T_TOGGLERIGHTARMARMOR="Mostra/nascondi spallaccio destro"
+T_TOGGLELEFTLEGARMOR="Mostra/nascondi ginocchiera sinistra"
+T_TOGGLERIGHTLEGARMOR="Mostra/nascondi ginocchiera destra"
+
+M_CHESTARMOR="Corazza"
+M_LEFTARMARMOR="Spallaccio sinistro"
+M_RIGHTARMARMOR="Spallaccio destro"
+M_LEFTLEGARMOR="Ginocchiera sinistra"
+M_RIGHTLEGARMOR="Ginocchiera destra"
+
+C_SCALE="Scala"
+C_CROP="Ritaglia"
+M_SKINSIZEMISMATCH="La dimensione di questa skin non corrisponde a quella prevista per il modello selezionato. MCSkin3D può risolvere il problema in due modi:\n\nRitaglia: Adatta la dimensione al modello senza modificare la skin. Questo potrebbe tagliare parti. Usa questo quando converti da 1.7 a 1.8.\n\nScala: Ridimensiona la skin alla dimensione desiderata.\n\nQuesta operazione è irreversibile e non può essere annullata."

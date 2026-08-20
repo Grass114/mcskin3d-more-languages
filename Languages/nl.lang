@@ -1,0 +1,302 @@
+﻿// C-style comments.
+// First non-comment line must be the following:
+MCSkin3D Language File
+// Following lines are key-value pairs, stored by the program.
+// A line beginning with the pound/sharp/hash sign # are
+// used internally and are not actual language pieces.
+#Name=Nederlands
+// Version is the version of the language file - it does not
+// have any effect other than identification, and does not
+// need to be present.
+#Version=1.0
+// SuppVersion is short for Supported Version, and denotes the version in which this
+// language file was made for. Any other version running this file will throw an error.
+#SuppVersion=1.4
+// Culture is the Windows culture ID for the language.
+// This is REQUIRED to be set properly!
+#Culture="nl"
+
+// These lines are not required, they are simply for identification
+// purposes.
+#Author="Paril"
+#AuthorContact="paril@alteredsoftworks.com"
+#AuthorSite="www.alteredsoftworks.com"
+
+// Below this are the key-value pairs; ID=String
+// Note that the quotes are not required, but may be used for readability purposes.
+// Language developers should use this file, and not other languages, to determine the
+// context in which the string is deriving - otherwise, you may lose accuracy of your
+// translation over time (see TranslationParty).
+C_OK="OK"
+C_CANCEL="Annuleren"
+C_CLOSE="Sluiten"
+C_COPYTOCLIPBOARD="Kopiëren naar klembord"
+
+M_FILE="Bestand"
+	M_SAVE="Opslaan"
+	M_SAVEAS="Opslaan als"
+	M_SAVEALL="Alles opslaan"
+	M_UPLOAD="Skin uploaden..."
+	M_EXIT="Afsluiten"
+M_EDIT="Bewerken"
+	M_UNDO="Ongedaan maken"
+	M_REDO="Opnieuw"
+	M_TOOL="Gereedschap"
+M_VIEW="Beeld"
+	M_MODE="Beeldmodus"
+		M_PERSPECTIVE="Perspectief (3D)"
+		M_TEXTURE="Textuur (2D)"
+		M_HYBRID="Hybride"
+	M_3D="3D-instellingen"
+		M_ANIMATE="Animeren"
+		M_FOLLOWCUR="Volg cursor"
+		M_GRASS="Gras"
+		M_GHOST="Verborgen delen doorschijnend"
+		M_MULTISAMPLING="Multisampling"
+	M_2D="2D-instellingen"
+		M_ALPHACHECKER="Alpha-dambord"
+		M_OVERLAY="Overlay"
+			M_ENABLEOVERLAY="Inschakelen"
+	M_TRANSMODE="Transparantiemodus"
+		M_OFF="Uit"
+		M_HELMETONLY="Alleen helm"
+		M_ALL="Alle"
+	M_VISIBLEPARTS="Zichtbare delen"
+		M_HEAD="Hoofd"
+		M_HELMET="Helm"
+		M_CHEST="Borst"
+		M_LEFTARM="Linkerarm"
+		M_RIGHTARM="Rechterarm"
+		M_LEFTLEG="Linkerbeen"
+		M_RIGHTLEG="Rechterbeen"
+M_OPTIONS="Opties"
+	M_KEYSHORTCUTS="Sneltoetsen"
+	M_BGCOLOR="Achtergrondkleur (herstart nodig)"
+	M_USETEXTUREBASES="Textuurbases gebruiken"
+M_LANGUAGE="Taal"
+M_HELP="Help"
+	M_CHECKUPDATES="Controleren op updates"
+	M_AUTOUPDATE="Automatisch controleren op updates"
+
+T_TREE_ZOOMOUT="Uitzoomen"
+T_TREE_ZOOMIN="Inzoomen"
+T_TREE_IMPORTHERE="Hier importeren..."
+T_TREE_NEWFOLDER="Nieuwe map hier..."
+T_TREE_RENAME="Hernoemen..."
+T_TREE_DELETE="Verwijderen..."
+T_TREE_CLONE="Klonen"
+T_TREE_UPLOAD="Uploaden"
+
+T_SAVE="Opslaan"
+T_SAVEALL="Alles opslaan"
+T_UNDO="Ongedaan maken"
+T_REDO="Opnieuw"
+T_PERSPECTIVE="Perspectief"
+T_TEXTURE="Textuur"
+T_HYBRID="Hybride"
+T_SCREENSHOT="Schermafbeelding (Shift om op te slaan)"
+T_TOGGLEHEAD="Hoofd tonen/verbergen"
+T_TOGGLEHELMET="Helm tonen/verbergen"
+T_TOGGLECHEST="Borst tonen/verbergen"
+T_TOGGLELEFTARM="Linkerarm tonen/verbergen"
+T_TOGGLERIGHTARM="Rechterarm tonen/verbergen"
+T_TOGGLELEFTLEG="Linkerbeen tonen/verbergen"
+T_TOGGLERIGHTLEG="Rechterbeen tonen/verbergen"
+T_SWATCHES="Kleurenpalet"
+
+M_IMPORT_HERE="Hier importeren..."
+M_NEWFOLDER="Nieuwe map"
+M_NEWFOLDER_HERE="Nieuwe map hier..."
+M_RENAME="Hernoemen..."
+M_DELETE="Verwijderen..."
+M_CLONE="Klonen"
+
+T_TOOL_CAMERA="Camera"
+T_TOOL_PENCIL="Potlood"
+T_TOOL_ERASER="Gum"
+T_TOOL_DROPPER="Pipet"
+T_TOOL_DODGEBURN="Oplichten/Donkerder"
+T_TOOL_DARKENLIGHTEN="Donkerder/Oplichten"
+T_TOOL_BUCKET="Verfemmer"
+T_TOOL_NOISE="Ruis"
+
+B_MSG_DIRMISSING="Een map ontbreekt - meestal omdat je het programma niet hebt uitgepakt. Dit is geen ernstig probleem, maar je mist wel sjablonen, paletten en andere inhoud."
+B_MSG_UPTODATE="Je hebt de nieuwste versie!"
+B_MSG_NEWUPDATE="Er is een nieuwe update beschikbaar! Wil je nu de updater openen?"
+B_MSG_UPLOADERROR="Fout bij uploaden van skin:"
+B_MSG_UPLOADSUCCESS="Skin succesvol geüpload! Veel plezier!"
+B_MSG_DELETESKIN="Deze skin verwijderen?\r\nWordt naar de Prullenbak verplaatst."
+B_MSG_DELETEFOLDER="Deze map verwijderen?\r\nWordt naar de Prullenbak verplaatst."
+B_MSG_OVERLAYERROR="Kan overlay-afbeelding niet laden: „{0}“; is de resolutie een macht van 2?"
+B_MSG_UPLOADRES="Je kunt wel hoge-resolutie texturen bewerken met MCSkin3D, maar je kunt ze niet uploaden naar je Minecraft-profiel."
+B_MSG_ANTIALIAS="Herstart MCSkin3D om de multisampling-opties toe te passen."
+B_MSG_PIXELFORMAT="Je videokaart ondersteunt geen 32-bit pixelformaat - dit is momenteel vereist voor MCSkin3D."
+B_MSG_SHORTCUTEXISTS="De sneltoets „{0}“ wordt al gebruikt door „{1}“ — wordt gewist."
+
+B_CAP_QUESTION="Vraag"
+B_CAP_SORRY="Sorry"
+
+C_SQUARE="Vierkant"
+C_CIRCLE="Cirkel"
+
+O_EXPOSURE="Belichting:"
+O_INCREMENTAL="Incrementeel"
+O_LIGHTEN="Oplichten"
+O_DARKEN="Donkerder"
+O_DODGE="Oplichten"
+O_BURN="Donkerder"
+Q_THRESHOLD="Drempel:"
+
+C_NEW="Nieuw"
+C_CANTMOVE="Kan niet verplaatsen naar"
+C_COPY="Kopiëren"
+C_MOVE="Verplaatsen"
+C_MOVED="Verplaatst"
+C_COPYTO="Kopiëren naar"
+C_MOVETO="Verplaatsen naar"
+C_IMPORTTO="Importeren naar"
+
+C_SETTINGSFAILED="Instellingen kunnen niet worden geladen; standaardinstellingen zijn geladen."
+
+C_AUTOLOGIN="Automatisch inloggen?"
+C_REMEMBER="Onthouden?"
+C_USERNAME="Gebruikersnaam:"
+C_PASSWORD="Wachtwoord:"
+C_UPLOADTEXT="Om je skin te uploaden, moet je inloggen op Minecraft.net. Voer je gebruikersnaam en wachtwoord in om door te gaan."
+
+C_UPLOADING="Je skin wordt geüpload! Even geduld..."
+C_SHORTCUTINUSE="Sneltoets is al in gebruik"
+
+S_TREEVIEW_ZOOMIN="Boomstructuur inzoomen"
+S_TREEVIEW_ZOOMOUT="Boomstructuur uitzoomen"
+S_SWATCH_ZOOMIN="Palet inzoomen"
+S_SWATCH_ZOOMOUT="Palet uitzoomen"
+S_COLORSWAP="Voor-/achtergrond omwisselen"
+S_RENAME="Hernoemen"
+S_CLONE="Knoop klonen"
+S_DELETE="Knoop verwijderen"
+S_SCREENSHOT_CLIP="Schermafbeelding naar klembord"
+S_SCREENSHOT_SAVE="Schermafbeelding opslaan"
+S_TOGGLEVIEW="Beeldmodus wisselen"
+S_TOGGLETRANS="Transparantiemodus wisselen"
+
+M_SHORTCUTS="Klik op het tekstveld hieronder en druk op de gewenste toets."
+W_OPTIONS="Gereedschapsopties tonen/verbergen"
+
+T_CAMERA="Linkermuisknop om te draaien. Rechtermuisknop/scrollen om te zoomen."
+T_PENCIL="Linkermuisknop om te tekenen; Rechter/middelste muisknop om te draaien/zoomen; Shift voor achtergrondkleur."
+T_DROPPER="Linkermuisknop om kleur te pakken. Rechter/middelste muisknop om te draaien/zoomen. Shift voor achtergrondkleur."
+T_DODGEBURN="Linkermuisknop voor Oplichten/Donkerder. Rechter/middelste muisknop om te draaien/zoomen. Shift wisselt gereedschap."
+T_DARKENLIGHTEN="Linkermuisknop voor Donkerder/Oplichten. Rechter/middelste muisknop om te draaien/zoomen. Shift wisselt gereedschap."
+T_ERASER="Linkermuisknop om te wissen (transparant). Rechter/middelste muisknop om te draaien/zoomen."
+T_FILL="Linkermuisknop om te vullen. Shift voor achtergrondkleur. Ctrl vergrendelt op onderdeel. Rechter/middelste muisknop om te draaien/zoomen."
+T_NOISE="Linkermuisknop om ruis toe te passen. Rechter/middelste muisknop om te draaien/zoomen."
+
+C_UNSAVED="Je hebt niet-opgeslagen wijzigingen. Weet je zeker dat je wilt afsluiten?"
+C_UNSAVED_CAPTION="Wacht even!"
+
+O_HOLDNESS="Dekking:"
+
+G_BRUSH="Penseel"
+G_BRUSHOPTS="Penseelopties"
+G_NOISEOPTS="Ruisopties"
+G_FILLOPTS="Vulopties"
+G_TOOL="Gereedschap"
+
+T_DECRES="Resolutie verlagen"
+T_INCRES="Resolutie verhogen"
+
+M_NEWSKIN="Nieuwe skin"
+M_NEWSKIN_HERE="Nieuwe skin hier"
+
+M_SKINERROR="Kan skin niet downloaden van Minecraft!"
+M_FETCH_NAME="Ophalen van Minecraft"
+M_FETCH_TEXT="MCSkin3D kan de skin van elk Minecraft-account ophalen en als bestand importeren. Voer de accountnaam in en klik op ‚Importeren‘!"
+M_PLAYER_NAME="Spelersnaam:"
+
+C_YES="Ja"
+C_NO="Nee"
+D_DONTASK="Niet meer vragen"
+M_IRREVERSIBLE="Let op: Hoge-resolutie skins kunnen niet worden geüpload naar Minecraft.net!\n\nDeze actie is onomkeerbaar en alle ongedaan/opnieuw-geschiedenis gaat verloren. Doorgaan?"
+
+M_TEMP="Je probeert MCSkin3D vanuit een tijdelijke locatie uit te voeren. Pak het programma eerst correct uit."
+
+T_RESETCAMERA="Camera resetten"
+M_SKINDIRS="Skinmappen"
+M_DYNAMICOVERLAY="Dynamische overlay"
+M_DYNAMICOPTIONS="Dynamische opties"
+M_LINECOLOR="Lijnkleur"
+M_LINESIZE="Lijndikte"
+M_OVERLAYTEXTSIZE="Tekstgrootte"
+M_TEXTCOLOR="Tekstkleur"
+
+U_PIXELSCHANGED="Pixels gewijzigd"
+T_TOOL_STAMP="Stempel"
+T_STAMP="Linkerklik om te stempelen. Shift+klik om een gebied in het penseel te kopiëren."
+L_UNDOACTIONS="{0} acties ongedaan gemaakt"
+L_REDOACTIONS="{0} acties opnieuw gedaan"
+
+M_BROWSE="Blader naar {0}"
+M_SKIN="Skin"
+M_FOLDER="Map"
+
+M_SHARED="Gedeelde opties"
+M_INFINITEMOUSE="Ongelimiteerde muis"
+
+T_SWATCHEDIT="Palet bewerken"
+T_DELETESWATCH="Palet verwijderen"
+T_ADDSWATCH="Palet toevoegen"
+
+M_EXPT_EXCEPTION="Er is een uitzondering opgetreden!"
+M_EXPT_APPERROR="Applicatiefout!"
+M_EXPT_ERRORTEXT="MCSkin3D heeft een fout ondervonden en kan instabiel worden. Maar maak je geen zorgen, je kunt helpen!\r\n\r\nStuur ons een foutrapport! De blauwe link onderaan bevat de gegevens. Stuur het naar ons (neem contact met ons op via PlanetMinecraft) – dat helpt enorm!"
+M_EXPT_SHOW="Dit bericht niet meer tonen"
+M_EXPT_CLOSE="Sluiten"
+M_EXPT_VIEW="Rapport bekijken"
+M_EXPT_HERE="hier"
+
+C_RESTART="Het programma moet opnieuw worden gestart om deze actie uit te voeren!"
+C_RESTART_CAPTION="Herstart nodig"
+D_UNSAVED="Je hebt niet-opgeslagen skins; het wijzigen van de skinmap vereist een vernieuwing van de lijst en je verliest alle niet-opgeslagen wijzigingen. ‚Ja‘ vernieuwt zonder opslaan; ‚Nee‘ wacht op herstart; ‚Annuleren‘ annuleert."
+D_UNSAVED_CAPTION="Niet-opgeslagen wijzigingen"
+
+M_RENDERSTATS="Renderstatistieken"
+M_GRIDCOLOR="Rasterkleur"
+M_GRIDOPACITY="Rasterdekking"
+
+M_LOADING="Laden..."
+M_NEWPALETTE="Nieuw palet"
+M_DELETEPALETTE="Palet verwijderen"
+M_CONVERTSWATCH="Palet converteren..."
+M_RENAMEPALETTE="Palet hernoemen"
+M_CURRENTFORMAT="Huidig formaat:"
+M_NEWFORMAT="Nieuw formaat:"
+M_SWATCHQUESTION="Dit palet wordt permanent verwijderd. Doorgaan?"
+M_SWATCHQUESTION_CAPTION="Weet je het zeker?"
+
+M_UPDATESTARTING="Update gedownload – MCSkin3D wordt gesloten en de updater wordt geopend. Het programma wordt uitgevoerd vanuit de tijdelijke map, dus Windows (of je antivirus) kan een waarschuwing tonen – dat is normaal."
+M_REPORTVIEWER="Rapportweergave"
+
+M_GRIDENABLED="Raster tonen"
+M_RENDERRESTART="Herstart is vereist om de rendermodus te wijzigen."
+M_RENDERER="Renderer"
+M_CLIENTARRAYS="Client-arrays"
+M_IMMEDIATE="Directe modus"
+W_POPOUT="Uitklappen"
+
+E_SKINERROR="Fout bij het laden van skin „{0}“; verwijder of verplaats dit bestand."
+T_TOGGLECHESTARMOR="Borstplaat tonen/verbergen"
+T_TOGGLELEFTARMARMOR="Linkerschouderplaat tonen/verbergen"
+T_TOGGLERIGHTARMARMOR="Rechter schouderplaat tonen/verbergen"
+T_TOGGLELEFTLEGARMOR="Linkerknieplaat tonen/verbergen"
+T_TOGGLERIGHTLEGARMOR="Rechter knieplaat tonen/verbergen"
+
+M_CHESTARMOR="Borstplaat"
+M_LEFTARMARMOR="Linkerschouderplaat"
+M_RIGHTARMARMOR="Rechter schouderplaat"
+M_LEFTLEGARMOR="Linkerknieplaat"
+M_RIGHTLEGARMOR="Rechter knieplaat"
+
+C_SCALE="Schaal"
+C_CROP="Bijsnijden"
+M_SKINSIZEMISMATCH="De grootte van deze skin komt niet overeen met de verwachte grootte voor het geselecteerde model. MCSkin3D kan dit op twee manieren oplossen:\n\nBijsnijden: Past de grootte aan het model aan zonder de skin te wijzigen. Dit kan delen afsnijden. Gebruik dit bij conversie van 1.7 naar 1.8.\n\nSchaal: Schaalt de skin naar de gewenste grootte.\n\nDeze actie is onomkeerbaar en kan niet ongedaan worden gemaakt."
