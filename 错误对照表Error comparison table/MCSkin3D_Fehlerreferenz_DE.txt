@@ -1,0 +1,82 @@
+﻿MCSkin3D – Fehlerreferenz (Deutsch)
+====================================
+
+Dieses Dokument listet mögliche Fehlermeldungen auf, die in MCSkin3D angezeigt werden können, sowie deren Ursachen und Lösungen. Wenn ein Fehlerfenster erscheint, suchen Sie in diesem Dokument nach einem Stichwort aus der Fehlermeldung, um Hilfe zu finden.
+
+
+1. Fehlermeldung: Ein enthaltenes Verzeichnis fehlt – wahrscheinlich weil Sie das Programm nicht entpackt haben. Dies ist kein schwerwiegendes Problem, aber Ihnen werden die mitgelieferten Vorlagen, Farbfelder und andere Inhalte fehlen.
+   - Ursache: Das Programm wurde nicht vollständig aus dem Archiv extrahiert; Ressourcenordner fehlen.
+   - Lösung: Entpacken Sie die gesamte MCSkin3D-ZIP-Datei in einen Ordner und führen Sie MCSkin3D.exe von dort aus. Führen Sie es nicht direkt aus der ZIP-Datei heraus aus.
+
+2. Fehlermeldung: Fehler beim Hochladen des Skins:
+   - Ursache: Netzwerkprobleme, Verbindungsverweigerung durch den Minecraft-Server oder falscher Benutzername/Passwort.
+   - Lösung: Überprüfen Sie Ihre Internetverbindung, stellen Sie sicher, dass Ihre Minecraft-Anmeldeinformationen korrekt sind, und versuchen Sie es später erneut.
+
+3. Fehlermeldung: Overlay-Bild konnte nicht geladen werden: "{0}"; ist die Auflösung eine Zweierpotenz?
+   - Ursache: Die Breite oder Höhe des Overlay-Bildes ist keine Zweierpotenz (z. B. 16, 32, 64, 128, 256, 512...).
+   - Lösung: Verwenden Sie einen Bildeditor, um die Bildgröße auf eine Zweierpotenz (z. B. 512x512) zu ändern, und legen Sie es dann zurück in den Ordner `Overlays`.
+
+4. Fehlermeldung: Obwohl Sie mit MCSkin3D hochauflösende Texturen bearbeiten können, können Sie sie nicht in Ihr Minecraft-Profil hochladen.
+   - Ursache: Die Größe des Skin-Bildes überschreitet das offizielle Maximum (normalerweise 64x64 oder 128x128).
+   - Lösung: Offizielles Minecraft unterstützt nur Skins in Standardgröße. Zum Hochladen reduzieren Sie die Auflösung oder verwenden Sie einen Drittanbieter-Skin-Server.
+
+5. Fehlermeldung: Starten Sie MCSkin3D neu, um die Multisampling-Option anzuwenden.
+   - Ursache: Sie haben die Multisampling-Einstellung (Antialiasing) geändert, ein Neustart ist erforderlich.
+   - Lösung: Schließen Sie MCSkin3D und starten Sie es neu.
+
+6. Fehlermeldung: Es tut uns leid, aber Ihre Grafikkarte scheint das 32-Bit-Pixelformat nicht zu unterstützen – dies ist derzeit für den ordnungsgemäßen Betrieb von MCSkin3D erforderlich.
+   - Ursache: Veraltete Grafikkartentreiber oder Hardware, die keine 32-Bit-Farbtiefe unterstützt.
+   - Lösung: Aktualisieren Sie Ihre Grafikkartentreiber. Falls das Problem weiterhin besteht, müssen Sie möglicherweise die Grafikkarte wechseln, einen anderen Skin-Editor verwenden oder es auf einem anderen Computer versuchen.
+
+7. Fehlermeldung: Die Tastenkombination "{0}" kollidiert mit "{1}" – sie wurde gelöscht.
+   - Ursache: Sie haben dieselbe Tastenkombination für zwei verschiedene Funktionen zugewiesen.
+   - Lösung: Gehen Sie zu `Optionen` → `Tastenkombinationen` und weisen Sie nicht kollidierende Tasten zu.
+
+8. Fehlermeldung: Laden der Einstellungsdatei fehlgeschlagen; Standardeinstellungen wurden geladen.
+   - Ursache: Die Konfigurationsdatei ist beschädigt oder nicht lesbar.
+   - Lösung: Löschen Sie die Datei `settings.ini` im Programmverzeichnis (stellen Sie ein Backup wieder her, falls vorhanden). Beim nächsten Start erstellt das Programm die Standardeinstellungen neu.
+
+9. Fehlermeldung: Herunterladen des Skins aus dem Minecraft-Skin-Speicher fehlgeschlagen!
+   - Ursache: Netzwerkproblem oder Serverstörung des Minecraft-Skin-Servers.
+   - Lösung: Überprüfen Sie Ihre Internetverbindung und versuchen Sie es später erneut. Sie können auch eine lokale Skin-Datei verwenden.
+
+10. Fehlermeldung: Fehler beim Laden des Skins "{0}"; bitte löschen Sie diese Datei oder verschieben Sie sie aus dem Ordner.
+    - Ursache: Die Skin-Datei ist beschädigt oder kein gültiges PNG-Bild.
+    - Lösung: Speichern Sie den Skin mit einem Bildeditor erneut im PNG-Format oder löschen Sie die fehlerhafte Datei.
+
+11. Fehlermeldung: Eine Ausnahme ist aufgetreten! / Anwendungsfehler!
+    - Ursache: Das Programm ist auf einen unerwarteten Fehler gestoßen (normalerweise ein Bug).
+    - Lösung: Klicken Sie auf den blauen Link am unteren Rand des Fehlerfensters, um den Fehlerbericht zu kopieren, und senden Sie ihn an den Entwickler (kontaktieren Sie Paril auf PlanetMinecraft). Sie können auch versuchen, das Programm neu zu starten oder Ihren Computer neu zu starten und es erneut zu versuchen.
+
+12. Fehlermeldung: Sie haben nicht gespeicherte Änderungen. Möchten Sie wirklich beenden?
+    - Ursache: Der Skin wurde geändert, aber nicht gespeichert.
+    - Lösung: Klicken Sie auf "Ja", um ohne Speichern zu beenden, oder auf "Nein", um zurückzugehen und zu speichern.
+
+13. Fehlermeldung: Sie versuchen, MCSkin3D von einem temporären Speicherort aus auszuführen. Bitte entpacken Sie das Programm ordnungsgemäß, bevor Sie es ausführen.
+    - Ursache: Ausführen der EXE-Datei direkt aus der ZIP-Datei oder von einem temporären Ordner.
+    - Lösung: Entpacken Sie den gesamten MCSkin3D-Ordner auf eine Festplatte (z. B. Desktop oder Laufwerk D:) und führen Sie ihn von dort aus.
+
+14. Fehlermeldung: Hinweis: Hochauflösende Skins können nicht als Skin auf Minecraft.net hochgeladen werden! Dieser Vorgang ist irreversibel...
+    - Ursache: Versuch, einen zu großen Skin hochzuladen.
+    - Lösung: Dies ist eine Warnung. Bestätigen Sie zum Fortfahren, oder verwenden Sie die Funktion "Auflösung verringern", um den Skin vor dem Hochladen zu verkleinern.
+
+15. Fehlermeldung: Sie haben nicht gespeicherte Skins; das Ändern des Skin-Verzeichnisses erfordert eine Aktualisierung der Skin-Liste, daher gehen alle nicht gespeicherten Änderungen verloren.
+    - Ursache: Versuch, den Skin-Speicherpfad zu ändern, während nicht gespeicherte Skins vorhanden sind.
+    - Lösung: Speichern Sie zuerst Ihre Skins, dann ändern Sie das Verzeichnis; oder klicken Sie auf "Ja", um die Aktualisierung zu erzwingen und die Änderungen zu verlieren.
+
+16. Fehlermeldung: Die Größe dieses Skins entspricht nicht der erwarteten Größe für das ausgewählte Modell. MCSkin3D kann dieses Problem auf zwei Arten lösen: Zuschneiden... Skalieren...
+    - Ursache: Die Skin-Größe (z. B. 64x64) entspricht nicht den Anforderungen des aktuellen Modells (z. B. benötigt ein 1.8-Doppelschicht-Skin 64x64 oder 128x128).
+    - Lösung: Wählen Sie entweder "Zuschneiden" oder "Skalieren", um den Skin zu konvertieren. Es wird empfohlen, die Standardgröße 64x64 zu verwenden.
+
+17. Fehlermeldung: Diese Tastenkombination wird bereits verwendet
+    - Ursache: Die von Ihnen festgelegte Tastenkombination ist bereits einer anderen Funktion zugewiesen.
+    - Lösung: Ändern Sie die Taste für eine der kollidierenden Funktionen in den Tastenkombinationseinstellungen.
+
+
+Hinweis: Dieses Dokument dient nur als Referenz!
+
+Wenn Sie auf einen Fehler stoßen, der nicht in der obigen Liste aufgeführt ist, kopieren Sie den vollständigen Fehlertext und erstellen Sie ein Issue in meinem GitHub-Repository. Ich werde ihn analysieren und diese Referenz aktualisieren.
+
+Viel Spaß mit MCSkin3D!
+
+--- Erstellt von: BlueCat ---

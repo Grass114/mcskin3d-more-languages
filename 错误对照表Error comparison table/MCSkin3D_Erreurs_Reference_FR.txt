@@ -1,0 +1,82 @@
+﻿MCSkin3D - Guide de référence des erreurs (Français)
+======================================================
+
+Ce document répertorie les messages d'erreur susceptibles d'apparaître dans MCSkin3D, ainsi que leurs causes et solutions. Lorsqu'une erreur s'affiche, recherchez un mot-clé du message dans ce document pour trouver de l'aide.
+
+
+1. Message d'erreur : Un répertoire inclus est manquant - généralement parce que vous n'avez pas extrait le programme. Ce n'est pas un problème grave, mais vous manquerez les modèles, nuanciers et autres contenus inclus.
+   - Cause : Le programme n'a pas été complètement extrait de l'archive ; les dossiers de ressources sont manquants.
+   - Solution : Extrayez l'intégralité de l'archive ZIP de MCSkin3D dans un dossier, puis exécutez MCSkin3D.exe à partir de là. Ne l'exécutez pas directement depuis le ZIP.
+
+2. Message d'erreur : Erreur lors du téléversement du skin :
+   - Cause : Problème de réseau, refus de connexion du serveur Minecraft, ou nom d'utilisateur/mot de passe incorrect.
+   - Solution : Vérifiez votre connexion Internet, confirmez que vos identifiants Minecraft sont corrects, puis réessayez plus tard.
+
+3. Message d'erreur : Impossible de charger l'image de superposition : "{0}" ; la résolution est-elle une puissance de deux ?
+   - Cause : La largeur ou la hauteur de l'image de superposition n'est pas une puissance de deux (ex : 16, 32, 64, 128, 256, 512...).
+   - Solution : Utilisez un éditeur d'images pour redimensionner l'image à une puissance de deux (ex : 512x512), puis replacez-la dans le dossier `Overlays`.
+
+4. Message d'erreur : Bien que vous puissiez éditer des textures haute résolution avec MCSkin3D, vous ne pouvez pas les téléverser vers votre profil Minecraft.
+   - Cause : La taille de l'image du skin dépasse la taille maximale officielle (généralement 64x64 ou 128x128).
+   - Solution : Minecraft officiel ne prend en charge que les skins de taille standard. Pour téléverser, réduisez la résolution ou utilisez un serveur de skins tiers.
+
+5. Message d'erreur : Redémarrez MCSkin3D pour appliquer l'option de multisampling.
+   - Cause : Vous avez modifié le paramètre de multisampling (anti-crénelage), un redémarrage est nécessaire.
+   - Solution : Fermez et redémarrez MCSkin3D.
+
+6. Message d'erreur : Désolé, votre carte graphique ne semble pas prendre en charge le format de pixels 32 bits - actuellement nécessaire pour le bon fonctionnement de MCSkin3D.
+   - Cause : Les pilotes de la carte graphique sont obsolètes ou le matériel ne prend pas en charge la profondeur de couleur 32 bits.
+   - Solution : Mettez à jour les pilotes de votre carte graphique. Si le problème persiste, vous devrez peut-être changer de carte graphique, utiliser un autre éditeur de skins, ou essayer sur un autre ordinateur.
+
+7. Message d'erreur : Le raccourci "{0}" est en conflit avec "{1}" - il a été effacé.
+   - Cause : Vous avez attribué le même raccourci à deux fonctions différentes.
+   - Solution : Allez dans `Options` → `Raccourcis clavier` et attribuez des touches sans conflit.
+
+8. Message d'erreur : Le chargement du fichier de paramètres a échoué ; les paramètres par défaut ont été chargés.
+   - Cause : Le fichier de configuration est corrompu ou illisible.
+   - Solution : Supprimez le fichier `settings.ini` du répertoire du programme (restaurez une sauvegarde si vous en avez une). Au prochain démarrage, le programme recréera les paramètres par défaut.
+
+9. Message d'erreur : Échec du téléchargement du skin depuis le stockage Minecraft !
+   - Cause : Problème de réseau ou panne du serveur de skins Minecraft.
+   - Solution : Vérifiez votre connexion Internet et réessayez plus tard. Vous pouvez également utiliser un fichier de skin local.
+
+10. Message d'erreur : Erreur lors du chargement du skin "{0}" ; veuillez supprimer ce fichier ou le déplacer hors du dossier.
+    - Cause : Le fichier de skin est corrompu ou n'est pas une image PNG valide.
+    - Solution : Réenregistrez le skin au format PNG avec un éditeur d'images, ou supprimez le fichier problématique.
+
+11. Message d'erreur : Une exception s'est produite ! / Erreur d'application !
+    - Cause : Le programme a rencontré un bogue inattendu.
+    - Solution : Cliquez sur le lien bleu en bas de la fenêtre d'erreur pour copier le rapport d'erreur et l'envoyer au développeur (contactez Paril sur PlanetMinecraft). Vous pouvez également essayer de redémarrer le programme, ou redémarrer votre ordinateur et réessayer.
+
+12. Message d'erreur : Vous avez des modifications non enregistrées. Voulez-vous vraiment quitter ?
+    - Cause : Le skin a été modifié mais pas enregistré.
+    - Solution : Cliquez sur "Oui" pour quitter sans enregistrer, ou sur "Non" pour revenir en arrière et enregistrer.
+
+13. Message d'erreur : Vous essayez d'exécuter MCSkin3D depuis un emplacement temporaire. Veuillez extraire correctement le programme avant de l'exécuter.
+    - Cause : Exécution directe de l'EXE depuis le ZIP ou depuis un dossier temporaire.
+    - Solution : Extrayez l'intégralité du dossier MCSkin3D sur le disque dur (par exemple sur le Bureau ou le lecteur D:), puis exécutez-le.
+
+14. Message d'erreur : Attention : Les skins haute résolution ne peuvent pas être téléversés sur Minecraft.net en tant que skin ! Cette opération est irréversible...
+    - Cause : Tentative de téléversement d'un skin trop grand.
+    - Solution : Il s'agit d'un avertissement. Confirmez pour continuer, ou utilisez la fonction "Réduire la résolution" pour réduire le skin avant de le téléverser.
+
+15. Message d'erreur : Vous avez des skins non enregistrés ; changer le répertoire des skins nécessite de rafraîchir la liste, vous perdrez donc toutes les modifications non enregistrées.
+    - Cause : Tentative de modification du chemin de stockage des skins alors qu'il y a des skins non enregistrés.
+    - Solution : Enregistrez d'abord vos skins, puis modifiez le répertoire ; ou cliquez sur "Oui" pour forcer le rafraîchissement et perdre les modifications.
+
+16. Message d'erreur : La taille de ce skin ne correspond pas à la taille attendue par le modèle sélectionné. MCSkin3D peut résoudre ce problème de deux manières : Rogner... Redimensionner...
+    - Cause : La taille du skin (ex : 64x64) ne correspond pas aux exigences du modèle actuel (ex : un skin double couche 1.8 nécessite 64x64 ou 128x128).
+    - Solution : Choisissez "Rogner" ou "Redimensionner" pour convertir le skin. Il est recommandé d'utiliser la taille standard 64x64.
+
+17. Message d'erreur : Ce raccourci est déjà utilisé
+    - Cause : Le raccourci que vous avez défini est déjà attribué à une autre fonction.
+    - Solution : Modifiez la touche de l'une des fonctions en conflit dans les paramètres des raccourcis.
+
+
+Note : Ce document est fourni à titre indicatif uniquement !
+
+Si vous rencontrez une erreur non répertoriée ci-dessus, veuillez copier l'intégralité du message d'erreur et soumettre un Issue sur mon dépôt GitHub. Je l'analyserai et mettrai à jour ce guide.
+
+Profitez bien de MCSkin3D !
+
+--- Créé par BlueCat ---

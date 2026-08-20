@@ -1,0 +1,82 @@
+﻿MCSkin3D - Guía de referencia de errores (Español)
+===================================================
+
+Este documento enumera los posibles mensajes de error que pueden aparecer en MCSkin3D, junto con sus causas y soluciones. Cuando aparezca una ventana de error, busque una palabra clave del mensaje en este documento para encontrar ayuda.
+
+
+1. Mensaje de error: Falta un directorio incluido; normalmente porque no extrajo el programa. No es un problema grave, pero le faltarán las plantillas, muestrarios y otros contenidos incluidos.
+   - Causa: El programa no se extrajo completamente del archivo; faltan carpetas de recursos.
+   - Solución: Extraiga todo el archivo ZIP de MCSkin3D en una carpeta y ejecute MCSkin3D.exe desde allí. No lo ejecute directamente desde el ZIP.
+
+2. Mensaje de error: Error al subir el skin:
+   - Causa: Problema de red, rechazo de conexión del servidor de Minecraft, o nombre de usuario/contraseña incorrectos.
+   - Solución: Verifique su conexión a Internet, confirme que sus credenciales de Minecraft sean correctas e intente nuevamente más tarde.
+
+3. Mensaje de error: No se pudo cargar la imagen de superposición: "{0}"; ¿la resolución es potencia de dos?
+   - Causa: El ancho o alto de la imagen de superposición no es una potencia de dos (ejemplo: 16, 32, 64, 128, 256, 512...).
+   - Solución: Use un editor de imágenes para redimensionar la imagen a una potencia de dos (ejemplo: 512x512) y vuelva a colocarla en la carpeta `Overlays`.
+
+4. Mensaje de error: Aunque puede editar texturas de alta resolución con MCSkin3D, no puede subirlas a su perfil de Minecraft.
+   - Causa: El tamaño de la imagen del skin supera el tamaño máximo oficial (generalmente 64x64 o 128x128).
+   - Solución: Minecraft oficial solo admite skins de tamaño estándar. Para subirlo, reduzca la resolución o use un servidor de skins de terceros.
+
+5. Mensaje de error: Reinicie MCSkin3D para aplicar la opción de multisampling.
+   - Causa: Cambió la configuración de multisampling (antialiasing), se necesita reiniciar.
+   - Solución: Cierre y reinicie MCSkin3D.
+
+6. Mensaje de error: Lo sentimos, su tarjeta gráfica parece no soportar el formato de píxeles de 32 bits; actualmente es necesario para el funcionamiento de MCSkin3D.
+   - Causa: Los controladores de la tarjeta gráfica están desactualizados o el hardware no admite profundidad de color de 32 bits.
+   - Solución: Actualice los controladores de su tarjeta gráfica. Si el problema persiste, es posible que deba cambiar de tarjeta gráfica, usar otro editor de skins o probar en otra computadora.
+
+7. Mensaje de error: El atajo "{0}" entra en conflicto con "{1}" – se ha eliminado.
+   - Causa: Asignó la misma tecla de acceso directo a dos funciones diferentes.
+   - Solución: Vaya a `Opciones` → `Atajos de teclado` y asigne teclas sin conflicto.
+
+8. Mensaje de error: Error al cargar el archivo de configuración; se han cargado los valores predeterminados.
+   - Causa: El archivo de configuración está dañado o no se puede leer.
+   - Solución: Elimine el archivo `settings.ini` del directorio del programa (restaure una copia de seguridad si tiene). En el próximo inicio, el programa recreará la configuración predeterminada.
+
+9. Mensaje de error: ¡No se pudo descargar el skin desde el almacenamiento de Minecraft!
+   - Causa: Problema de red o fallo del servidor de skins de Minecraft.
+   - Solución: Verifique su conexión a Internet e intente nuevamente más tarde. También puede usar un archivo de skin local.
+
+10. Mensaje de error: Error al cargar el skin "{0}"; elimine este archivo o muévalo fuera de la carpeta.
+    - Causa: El archivo de skin está dañado o no es una imagen PNG válida.
+    - Solución: Vuelva a guardar el skin en formato PNG con un editor de imágenes o elimine el archivo problemático.
+
+11. Mensaje de error: ¡Se produjo una excepción! / ¡Error de aplicación!
+    - Causa: El programa encontró un error inesperado (generalmente un bug).
+    - Solución: Haga clic en el enlace azul en la parte inferior de la ventana de error para copiar el informe de error y enviarlo al desarrollador (contacte a Paril en PlanetMinecraft). También puede intentar reiniciar el programa, o reiniciar su computadora e intentarlo de nuevo.
+
+12. Mensaje de error: Tiene cambios sin guardar. ¿Está seguro de que quiere salir?
+    - Causa: El skin ha sido modificado pero no guardado.
+    - Solución: Haga clic en "Sí" para salir sin guardar, o en "No" para volver y guardar.
+
+13. Mensaje de error: Está intentando ejecutar MCSkin3D desde una ubicación temporal. Extraiga el programa correctamente antes de ejecutarlo.
+    - Causa: Ejecutar el EXE directamente desde el ZIP o desde una carpeta temporal.
+    - Solución: Extraiga toda la carpeta de MCSkin3D en el disco duro (por ejemplo, en el Escritorio o en la unidad D:) y ejecútelo desde allí.
+
+14. Mensaje de error: Nota: ¡Los skins de alta resolución no se pueden subir a Minecraft.net como skin! Esta operación es irreversible...
+    - Causa: Intento de subir un skin demasiado grande.
+    - Solución: Esto es una advertencia. Confirme para continuar, o use la función "Reducir resolución" para reducir el skin antes de subirlo.
+
+15. Mensaje de error: Tiene skins sin guardar; cambiar el directorio de skins requiere actualizar la lista, por lo que perderá todos los cambios sin guardar.
+    - Causa: Intenta cambiar la ruta de almacenamiento de skins mientras hay skins sin guardar.
+    - Solución: Primero guarde sus skins, luego cambie el directorio; o haga clic en "Sí" para forzar la actualización y perder los cambios.
+
+16. Mensaje de error: El tamaño de este skin no coincide con el tamaño esperado por el modelo seleccionado. MCSkin3D puede resolver esto de dos maneras: Recortar... Escalar...
+    - Causa: El tamaño del skin (ejemplo: 64x64) no coincide con los requisitos del modelo actual (ejemplo: un skin de doble capa 1.8 necesita 64x64 o 128x128).
+    - Solución: Elija "Recortar" o "Escalar" para convertir el skin. Se recomienda usar el tamaño estándar de 64x64.
+
+17. Mensaje de error: Este atajo ya está en uso
+    - Causa: El atajo que configuró ya está asignado a otra función.
+    - Solución: Cambie la tecla de una de las funciones en conflicto en la configuración de atajos.
+
+
+Nota: ¡Esta guía es solo de referencia!
+
+Si encuentra un error que no aparece en la lista anterior, copie el texto completo del mensaje de error y envíe un Issue en mi repositorio de GitHub. Lo analizaré y actualizaré esta guía.
+
+¡Disfrute usando MCSkin3D!
+
+--- Creado por BlueCat ---

@@ -1,0 +1,82 @@
+﻿MCSkin3D – Hata Başvuru Kılavuzu (Türkçe)
+===========================================
+
+Bu belge, MCSkin3D'de görünebilecek olası hata mesajlarını, nedenlerini ve çözümlerini listeler. Bir hata penceresi göründüğünde, yardım bulmak için bu belgede mesajdaki anahtar kelimeyi arayın.
+
+
+1. Hata mesajı: Dahil edilen bir dizin eksik – genellikle programı çıkarmadığınız için. Bu ciddi bir sorun değil, ancak birlikte verilen şablonlar, renk örnekleri ve diğer içerikler eksik olacaktır.
+   - Neden: Program arşivden tam olarak çıkarılmadı; kaynak klasörleri eksik.
+   - Çözüm: MCSkin3D ZIP dosyasının tamamını bir klasöre çıkarın ve MCSkin3D.exe'yi oradan çalıştırın. Doğrudan ZIP'in içinden çalıştırmayın.
+
+2. Hata mesajı: Skin yüklenirken hata oluştu:
+   - Neden: Ağ sorunları, Minecraft sunucusunun bağlantıyı reddetmesi veya yanlış kullanıcı adı/şifre.
+   - Çözüm: İnternet bağlantınızı kontrol edin, Minecraft kimlik bilgilerinizin doğru olduğundan emin olun ve daha sonra tekrar deneyin.
+
+3. Hata mesajı: Kaplama görüntüsü yüklenemedi: "{0}"; çözünürlük ikinin kuvveti mi?
+   - Neden: Kaplama görüntüsünün genişliği veya yüksekliği ikinin kuvveti değil (örnek: 16, 32, 64, 128, 256, 512...).
+   - Çözüm: Bir görüntü düzenleyici kullanarak görüntüyü ikinin kuvvetine (örnek: 512x512) yeniden boyutlandırın ve `Overlays` klasörüne geri koyun.
+
+4. Hata mesajı: MCSkin3D ile yüksek çözünürlüklü dokuları düzenleyebilseniz de, bunları Minecraft profilinize yükleyemezsiniz.
+   - Neden: Skin görüntüsünün boyutu resmi maksimumu (genellikle 64x64 veya 128x128) aşıyor.
+   - Çözüm: Resmi Minecraft yalnızca standart boyutlu skinleri destekler. Yüklemek için çözünürlüğü düşürün veya üçüncü taraf bir skin sunucusu kullanın.
+
+5. Hata mesajı: Çoklu örnekleme seçeneğini uygulamak için MCSkin3D'yi yeniden başlatın.
+   - Neden: Çoklu örnekleme (kenar yumuşatma) ayarını değiştirdiniz, yeniden başlatma gerekli.
+   - Çözüm: MCSkin3D'yi kapatın ve yeniden başlatın.
+
+6. Hata mesajı: Üzgünüz, grafik kartınız 32 bit piksel formatını desteklemiyor gibi görünüyor – bu, MCSkin3D'nin düzgün çalışması için şu anda gereklidir.
+   - Neden: Grafik kartı sürücüleri güncel değil veya donanım 32 bit renk derinliğini desteklemiyor.
+   - Çözüm: Grafik kartı sürücülerinizi güncelleyin. Sorun devam ederse, grafik kartını değiştirmeniz, başka bir skin düzenleyici kullanmanız veya başka bir bilgisayarda denemeniz gerekebilir.
+
+7. Hata mesajı: "{0}" kısayolu "{1}" ile çakışıyor – temizlendi.
+   - Neden: İki farklı işleve aynı kısayol tuşunu atadınız.
+   - Çözüm: `Seçenekler` → `Klavye Kısayolları` bölümüne gidin ve çakışmayan tuşlar atayın.
+
+8. Hata mesajı: Ayarlar dosyası yüklenemedi; varsayılan ayarlar yüklendi.
+   - Neden: Yapılandırma dosyası bozuk veya okunamıyor.
+   - Çözüm: Program dizininden `settings.ini` dosyasını silin (yedeklemeniz varsa geri yükleyin). Bir sonraki başlatışta program varsayılan ayarları yeniden oluşturacaktır.
+
+9. Hata mesajı: Minecraft skin deposundan skin indirilemedi!
+   - Neden: Ağ sorunu veya Minecraft skin sunucusu arızası.
+   - Çözüm: İnternet bağlantınızı kontrol edin ve daha sonra tekrar deneyin. Ayrıca yerel bir skin dosyası da kullanabilirsiniz.
+
+10. Hata mesajı: "{0}" skinini yükleme hatası; lütfen bu dosyayı silin veya klasörden taşıyın.
+    - Neden: Skin dosyası bozuk veya geçerli bir PNG görüntüsü değil.
+    - Çözüm: Bir görüntü düzenleyici ile skin'i PNG biçiminde yeniden kaydedin veya sorunlu dosyayı silin.
+
+11. Hata mesajı: Bir özel durum oluştu! / Uygulama hatası!
+    - Neden: Program beklenmedik bir hatayla karşılaştı (genellikle bir yazılım hatası).
+    - Çözüm: Hata penceresinin altındaki mavi bağlantıya tıklayarak hata raporunu kopyalayın ve geliştiriciye gönderin (PlanetMinecraft'ta Paril ile iletişime geçin). Ayrıca programı yeniden başlatmayı veya bilgisayarınızı yeniden başlatıp tekrar denemeyi de deneyebilirsiniz.
+
+12. Hata mesajı: Kaydedilmemiş değişiklikleriniz var. Gerçekten çıkmak istediğinize emin misiniz?
+    - Neden: Skin değiştirildi ancak kaydedilmedi.
+    - Çözüm: Kaydetmeden çıkmak için "Evet"e veya geri dönüp kaydetmek için "Hayır"a tıklayın.
+
+13. Hata mesajı: MCSkin3D'yi geçici bir konumdan çalıştırmaya çalışıyorsunuz. Lütfen çalıştırmadan önce programı doğru şekilde çıkarın.
+    - Neden: EXE'yi doğrudan ZIP'in içinden veya geçici bir klasörden çalıştırmak.
+    - Çözüm: MCSkin3D klasörünün tamamını sabit diske (örneğin Masaüstü veya D: sürücüsü) çıkarın ve oradan çalıştırın.
+
+14. Hata mesajı: Not: Yüksek çözünürlüklü skinler Minecraft.net'e skin olarak yüklenemez! Bu işlem geri alınamaz...
+    - Neden: Çok büyük bir skin yüklemeye çalışmak.
+    - Çözüm: Bu bir uyarıdır. Devam etmek için onaylayın veya yüklemeden önce "Çözünürlüğü Düşür" işlevini kullanarak skin'i küçültün.
+
+15. Hata mesajı: Kaydedilmemiş skinleriniz var; skin dizinini değiştirmek skin listesinin yenilenmesini gerektirir, bu nedenle kaydedilmemiş tüm değişiklikleri kaybedersiniz.
+    - Neden: Kaydedilmemiş skinler varken skin depolama yolunu değiştirmeye çalışmak.
+    - Çözüm: Önce skinlerinizi kaydedin, ardından dizini değiştirin; veya yenilemeyi zorlamak ve değişiklikleri kaybetmek için "Evet"e tıklayın.
+
+16. Hata mesajı: Bu skinin boyutu, seçilen model için beklenen boyutla eşleşmiyor. MCSkin3D bu sorunu iki şekilde çözebilir: Kırp... Ölçekle...
+    - Neden: Skin boyutu (örnek: 64x64) mevcut modelin gereksinimleriyle (örnek: 1.8 çift katmanlı skin 64x64 veya 128x128 gerektirir) eşleşmiyor.
+    - Çözüm: Skin'i dönüştürmek için "Kırp" veya "Ölçekle"yi seçin. Standart 64x64 boyutunun kullanılması önerilir.
+
+17. Hata mesajı: Bu kısayol zaten kullanılıyor
+    - Neden: Ayarladığınız kısayol zaten başka bir işleve atanmış.
+    - Çözüm: Kısayol ayarlarında çakışan işlevlerden birinin tuşunu değiştirin.
+
+
+Not: Bu belge yalnızca başvuru amaçlıdır!
+
+Yukarıda listelenmeyen bir hatayla karşılaşırsanız, lütfen hata mesajı metninin tamamını kopyalayın ve GitHub depomda bir Issue oluşturun. Analiz edip bu başvuruyu güncelleyeceğim.
+
+MCSkin3D'yi kullanmaktan keyif alın!
+
+--- Oluşturan: BlueCat ---

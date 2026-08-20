@@ -1,0 +1,159 @@
+﻿MCSkin3D Error Message Reference Sheet (English)
+
+
+=================================================
+
+
+
+This document lists possible error messages that MCSkin3D may display, along with explanations and suggested solutions. When you encounter an error, search for keywords from the error message in this document to find help.
+
+
+
+
+1. Error: A contained directory is missing - usually because you did not extract the program. This is not a serious problem, but you will be missing any included templates, swatches, and other content.
+
+   - Cause: The program was not fully extracted from the archive; resource folders are missing.
+
+   - Solution: Extract the entire MCSkin3D zip file to a folder, then run MCSkin3D.exe from there. Do not run it directly inside the zip.
+
+
+
+2. Error: Error uploading skin:
+
+   - Cause: Network issues, Minecraft server rejection, or incorrect username/password.
+
+   - Solution: Check your internet connection, verify your Minecraft account credentials, and try again later.
+
+
+
+3. Error: Could not load overlay image: "{0}"; is the resolution a power of two?
+
+   - Cause: The overlay image's width or height is not a power of two (e.g., 16, 32, 64, 128, 256, 512...).
+
+   - Solution: Use an image editor to resize the image to a power of two (e.g., 512x512), then place it back into the `Overlays` folder.
+
+
+
+4. Error: Although you can edit high-resolution textures with MCSkin3D, you cannot upload them to your Minecraft profile.
+
+   - Cause: The skin size exceeds the official maximum (usually 64x64 or 128x128).
+
+   - Solution: Minecraft only supports standard-sized skins. To upload, reduce the resolution or use a third-party skin server.
+
+
+
+5. Error: Restart MCSkin3D to apply the multisampling option.
+
+   - Cause: You changed the multisampling (anti-aliasing) setting.
+
+   - Solution: Close and restart MCSkin3D.
+
+
+
+6. Error: Sorry, your graphics card does not seem to support 32-bit pixel format – currently required for MCSkin3D to run properly.
+
+   - Cause: Outdated graphics drivers or hardware that does not support 32‑bit color depth.
+
+   - Solution: Update your graphics drivers. If the problem persists, you may need a different graphics card or use another skin editor,Or switch to a different computer.
+
+
+
+7. Error: Shortcut "{0}" conflicts with "{1}" – it has been cleared.
+
+   - Cause: You assigned the same shortcut key to two different functions.
+
+   - Solution: Go to `Options` → `Keyboard Shortcuts` and assign non‑conflicting keys.
+
+
+
+8. Error: Settings file failed to load; default settings have been loaded.
+
+   - Cause: Corrupted or unreadable configuration file.
+
+   - Solution: Delete the `settings.ini` file from the MCSkin3D folder (back it up if needed). The program will recreate default settings on next launch.
+
+
+
+9. Error: Failed to download skin from Minecraft skin storage!
+
+   - Cause: Network issue or Minecraft skin server problem.
+
+   - Solution: Check your internet connection and try again later. Alternatively, use a local skin file.
+
+
+
+10. Error: Error loading skin "{0}"; please delete this file or move it out of the folder.
+
+    - Cause: The skin file is corrupted or not a valid PNG image.
+
+    - Solution: Use an image editor to re‑save the skin as a valid PNG, or delete the problematic file.
+
+
+
+11. Error: An exception has occurred! / Application error!
+
+    - Cause: The program encountered an unexpected bug.
+
+    - Solution: Click the blue link at the bottom of the error window to copy the error report and send it to the developer (contact Paril on PlanetMinecraft). You can also try restarting the program,Or restart the computer and try again.
+
+
+
+12. Error: You have unsaved changes. Are you sure you want to exit?
+
+    - Cause: The skin has been modified but not saved.
+
+    - Solution: Click "Yes" to exit without saving, or "No" to go back and save.
+
+
+
+13. Error: You are trying to run MCSkin3D from a temporary location. Please extract the program properly before running.
+
+    - Cause: Running the exe directly from inside the zip archive or from a temporary folder.
+
+    - Solution: Extract the entire MCSkin3D folder to a permanent location (e.g., Desktop or D: drive) and run it from there.
+
+
+
+14. Error: Note: High-resolution skins cannot be uploaded as a skin to Minecraft.net! This operation is irreversible...
+
+    - Cause: Attempting to upload an oversized skin.
+
+    - Solution: This is a warning. Confirm to proceed, or use "Decrease Resolution" to shrink the skin before uploading.
+
+
+
+15. Error: You have unsaved skins; changing the skin directory requires refreshing the skin list, so you will lose all unsaved changes.
+
+    - Cause: Trying to change the skin storage path while there are unsaved skins.
+
+    - Solution: Save your skins first, then change the skin directory; or click "Yes" to refresh and lose unsaved changes.
+
+
+
+16. Error: The size of this skin does not match the size expected by the selected model. MCSkin3D can solve this in one of two ways: Crop... Scale...
+
+    - Cause: Skin dimensions (e.g., 64x64) do not match the model requirements (e.g., 1.8 dual‑layer skin needs 64x64 or 128x128).
+
+    - Solution: Choose either "Crop" or "Scale" to convert the skin. Using the standard 64x64 size is recommended.
+
+
+
+17. Error: Shortcut already in use
+
+    - Cause: The shortcut key is already assigned to another function.
+
+    - Solution: Change the shortcut for one of the conflicting functions in the shortcut settings.
+
+
+Attention! This is for reference only!
+
+
+
+If you encounter an error not listed above, please copy the full error message text and submit an Issue on my GitHub repository. I will analyze it and update this reference.
+
+
+Enjoy using MCSkin3D!
+
+
+
+--- Created by BlueCat ---

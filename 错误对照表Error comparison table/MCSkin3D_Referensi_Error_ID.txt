@@ -1,0 +1,82 @@
+﻿MCSkin3D – Referensi Kesalahan (Bahasa Indonesia)
+==================================================
+
+Dokumen ini mencantumkan kemungkinan pesan kesalahan yang mungkin muncul di MCSkin3D, beserta penyebab dan solusinya. Ketika jendela kesalahan muncul, cari kata kunci dari pesan tersebut dalam dokumen ini untuk menemukan bantuan.
+
+
+1. Pesan kesalahan: Sebuah direktori yang disertakan hilang – biasanya karena Anda tidak mengekstrak program. Ini bukan masalah serius, tetapi Anda akan kehilangan semua templat, contoh warna, dan konten lainnya yang disertakan.
+   - Penyebab: Program tidak diekstrak sepenuhnya dari arsip; folder sumber daya hilang.
+   - Solusi: Ekstrak seluruh file ZIP MCSkin3D ke dalam folder, lalu jalankan MCSkin3D.exe dari sana. Jangan menjalankannya langsung dari dalam ZIP.
+
+2. Pesan kesalahan: Kesalahan saat mengunggah skin:
+   - Penyebab: Masalah jaringan, penolakan koneksi dari server Minecraft, atau nama pengguna/kata sandi salah.
+   - Solusi: Periksa koneksi internet Anda, pastikan kredensial Minecraft Anda benar, dan coba lagi nanti.
+
+3. Pesan kesalahan: Gagal memuat gambar overlay: "{0}"; apakah resolusinya merupakan pangkat dua?
+   - Penyebab: Lebar atau tinggi gambar overlay bukan pangkat dua (contoh: 16, 32, 64, 128, 256, 512...).
+   - Solusi: Gunakan editor gambar untuk mengubah ukuran gambar menjadi pangkat dua (contoh: 512x512), lalu letakkan kembali ke folder `Overlays`.
+
+4. Pesan kesalahan: Meskipun Anda dapat mengedit tekstur resolusi tinggi dengan MCSkin3D, Anda tidak dapat mengunggahnya ke profil Minecraft Anda.
+   - Penyebab: Ukuran gambar skin melebihi ukuran maksimum resmi (biasanya 64x64 atau 128x128).
+   - Solusi: Minecraft resmi hanya mendukung skin ukuran standar. Untuk mengunggah, kurangi resolusinya atau gunakan server skin pihak ketiga.
+
+5. Pesan kesalahan: Mulai ulang MCSkin3D untuk menerapkan opsi multisampling.
+   - Penyebab: Anda mengubah pengaturan multisampling (anti-aliasing), diperlukan restart.
+   - Solusi: Tutup dan mulai ulang MCSkin3D.
+
+6. Pesan kesalahan: Maaf, kartu grafis Anda tampaknya tidak mendukung format piksel 32-bit – saat ini diperlukan untuk pengoperasian MCSkin3D yang benar.
+   - Penyebab: Driver kartu grafis sudah ketinggalan zaman atau perangkat keras tidak mendukung kedalaman warna 32-bit.
+   - Solusi: Perbarui driver kartu grafis Anda. Jika masalah berlanjut, Anda mungkin perlu mengganti kartu grafis, menggunakan editor skin lain, atau mencoba di komputer lain.
+
+7. Pesan kesalahan: Pintasan "{0}" bertentangan dengan "{1}" – telah dihapus.
+   - Penyebab: Anda menetapkan tombol pintas yang sama untuk dua fungsi yang berbeda.
+   - Solusi: Buka `Opsi` → `Pintasan Keyboard` dan tetapkan tombol yang tidak bertentangan.
+
+8. Pesan kesalahan: Gagal memuat file pengaturan; pengaturan default telah dimuat.
+   - Penyebab: File konfigurasi rusak atau tidak dapat dibaca.
+   - Solusi: Hapus file `settings.ini` dari direktori program (pulihkan cadangan jika ada). Pada peluncuran berikutnya, program akan membuat ulang pengaturan default.
+
+9. Pesan kesalahan: Gagal mengunduh skin dari penyimpanan skin Minecraft!
+   - Penyebab: Masalah jaringan atau kegagalan server skin Minecraft.
+   - Solusi: Periksa koneksi internet Anda dan coba lagi nanti. Anda juga dapat menggunakan file skin lokal.
+
+10. Pesan kesalahan: Kesalahan saat memuat skin "{0}"; hapus file ini atau pindahkan keluar dari folder.
+    - Penyebab: File skin rusak atau bukan gambar PNG yang valid.
+    - Solusi: Simpan ulang skin dalam format PNG dengan editor gambar, atau hapus file yang bermasalah.
+
+11. Pesan kesalahan: Terjadi pengecualian! / Kesalahan aplikasi!
+    - Penyebab: Program mengalami kesalahan yang tidak terduga (biasanya bug).
+    - Solusi: Klik tautan biru di bagian bawah jendela kesalahan untuk menyalin laporan kesalahan dan kirimkan ke pengembang (hubungi Paril di PlanetMinecraft). Anda juga dapat mencoba memulai ulang program, atau memulai ulang komputer dan mencoba lagi.
+
+12. Pesan kesalahan: Anda memiliki perubahan yang belum disimpan. Apakah Anda yakin ingin keluar?
+    - Penyebab: Skin telah dimodifikasi tetapi belum disimpan.
+    - Solusi: Klik "Ya" untuk keluar tanpa menyimpan, atau "Tidak" untuk kembali dan menyimpan.
+
+13. Pesan kesalahan: Anda mencoba menjalankan MCSkin3D dari lokasi sementara. Ekstrak program dengan benar sebelum menjalankannya.
+    - Penyebab: Menjalankan EXE langsung dari dalam ZIP atau dari folder sementara.
+    - Solusi: Ekstrak seluruh folder MCSkin3D ke hard disk (misalnya Desktop atau drive D:) dan jalankan dari sana.
+
+14. Pesan kesalahan: Catatan: Skin resolusi tinggi tidak dapat diunggah ke Minecraft.net sebagai skin! Operasi ini tidak dapat dibatalkan...
+    - Penyebab: Mencoba mengunggah skin yang terlalu besar.
+    - Solusi: Ini adalah peringatan. Konfirmasi untuk melanjutkan, atau gunakan fungsi "Kurangi Resolusi" untuk mengecilkan skin sebelum mengunggah.
+
+15. Pesan kesalahan: Anda memiliki skin yang belum disimpan; mengubah direktori skin memerlukan penyegaran daftar skin, sehingga Anda akan kehilangan semua perubahan yang belum disimpan.
+    - Penyebab: Mencoba mengubah jalur penyimpanan skin saat ada skin yang belum disimpan.
+    - Solusi: Simpan skin Anda terlebih dahulu, lalu ubah direktori; atau klik "Ya" untuk memaksa penyegaran dan kehilangan perubahan.
+
+16. Pesan kesalahan: Ukuran skin ini tidak sesuai dengan ukuran yang diharapkan untuk model yang dipilih. MCSkin3D dapat menyelesaikan masalah ini dengan dua cara: Potong... Skalakan...
+    - Penyebab: Ukuran skin (contoh: 64x64) tidak sesuai dengan persyaratan model saat ini (contoh: skin lapisan ganda 1.8 membutuhkan 64x64 atau 128x128).
+    - Solusi: Pilih "Potong" atau "Skalakan" untuk mengonversi skin. Disarankan untuk menggunakan ukuran standar 64x64.
+
+17. Pesan kesalahan: Pintasan ini sudah digunakan
+    - Penyebab: Pintasan yang Anda tetapkan sudah ditetapkan ke fungsi lain.
+    - Solusi: Ubah tombol untuk salah satu fungsi yang bertentangan dalam pengaturan pintasan.
+
+
+Catatan: Dokumen ini hanya untuk referensi!
+
+Jika Anda menemukan kesalahan yang tidak tercantum di atas, salin teks lengkap pesan kesalahan dan buat Issue di repositori GitHub saya. Saya akan menganalisisnya dan memperbarui referensi ini.
+
+Nikmati menggunakan MCSkin3D!
+
+--- Dibuat oleh: BlueCat ---

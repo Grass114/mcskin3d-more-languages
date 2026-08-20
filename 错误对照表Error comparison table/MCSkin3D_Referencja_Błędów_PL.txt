@@ -1,0 +1,82 @@
+﻿MCSkin3D – Referencja błędów (Polski)
+======================================
+
+Ten dokument zawiera listę możliwych komunikatów o błędach, które mogą pojawić się w MCSkin3D, wraz z ich przyczynami i rozwiązaniami. Gdy pojawi się okno błędu, wyszukaj słowo kluczowe z komunikatu w tym dokumencie, aby znaleźć pomoc.
+
+
+1. Komunikat błędu: Brakuje dołączonego katalogu – zazwyczaj dlatego, że nie rozpakowałeś programu. Nie jest to poważny problem, ale zabraknie Ci dołączonych szablonów, próbek kolorów i innych treści.
+   - Przyczyna: Program nie został w pełni wyodrębniony z archiwum; brakuje folderów zasobów.
+   - Rozwiązanie: Rozpakuj cały plik ZIP MCSkin3D do folderu i uruchom MCSkin3D.exe stamtąd. Nie uruchamiaj go bezpośrednio z wnętrza ZIP.
+
+2. Komunikat błędu: Błąd podczas przesyłania skina:
+   - Przyczyna: Problemy z siecią, odmowa połączenia przez serwer Minecraft lub nieprawidłowa nazwa użytkownika/hasło.
+   - Rozwiązanie: Sprawdź połączenie internetowe, upewnij się, że dane logowania do Minecraft są poprawne i spróbuj ponownie później.
+
+3. Komunikat błędu: Nie można załadować obrazu nakładki: "{0}"; czy rozdzielczość jest potęgą liczby 2?
+   - Przyczyna: Szerokość lub wysokość obrazu nakładki nie jest potęgą liczby 2 (przykład: 16, 32, 64, 128, 256, 512...).
+   - Rozwiązanie: Użyj edytora obrazów, aby zmienić rozmiar obrazu na potęgę liczby 2 (przykład: 512x512), a następnie umieść go z powrotem w folderze `Overlays`.
+
+4. Komunikat błędu: Chociaż możesz edytować tekstury o wysokiej rozdzielczości za pomocą MCSkin3D, nie możesz przesłać ich do swojego profilu Minecraft.
+   - Przyczyna: Rozmiar obrazu skina przekracza oficjalne maksimum (zwykle 64x64 lub 128x128).
+   - Rozwiązanie: Oficjalny Minecraft obsługuje tylko skiny o standardowym rozmiarze. Aby przesłać, zmniejsz rozdzielczość lub użyj zewnętrznego serwera skinów.
+
+5. Komunikat błędu: Uruchom ponownie MCSkin3D, aby zastosować opcję multisamplingu.
+   - Przyczyna: Zmieniłeś ustawienie multisamplingu (wygładzania), wymagane jest ponowne uruchomienie.
+   - Rozwiązanie: Zamknij i uruchom ponownie MCSkin3D.
+
+6. Komunikat błędu: Przepraszamy, Twoja karta graficzna najwyraźniej nie obsługuje formatu 32-bitowego na piksel – jest to obecnie wymagane do prawidłowego działania MCSkin3D.
+   - Przyczyna: Sterowniki karty graficznej są nieaktualne lub sprzęt nie obsługuje 32-bitowej głębi kolorów.
+   - Rozwiązanie: Zaktualizuj sterowniki karty graficznej. Jeśli problem będzie się powtarzał, może być konieczna wymiana karty graficznej, użycie innego edytora skinów lub próba na innym komputerze.
+
+7. Komunikat błędu: Skrót "{0}" koliduje z "{1}" – został usunięty.
+   - Przyczyna: Przypisałeś ten sam klawisz skrótu do dwóch różnych funkcji.
+   - Rozwiązanie: Przejdź do `Opcje` → `Skróty klawiszowe` i przypisz klawisze, które nie są ze sobą w konflikcie.
+
+8. Komunikat błędu: Nie można załadować pliku ustawień; załadowano ustawienia domyślne.
+   - Przyczyna: Plik konfiguracyjny jest uszkodzony lub nieczytelny.
+   - Rozwiązanie: Usuń plik `settings.ini` z katalogu programu (przywróć kopię zapasową, jeśli masz). Przy następnym uruchomieniu program odtworzy ustawienia domyślne.
+
+9. Komunikat błędu: Nie można pobrać skina z magazynu skinów Minecraft!
+   - Przyczyna: Problem z siecią lub awaria serwera skinów Minecraft.
+   - Rozwiązanie: Sprawdź połączenie internetowe i spróbuj ponownie później. Możesz również użyć lokalnego pliku skina.
+
+10. Komunikat błędu: Błąd podczas ładowania skina "{0}"; usuń ten plik lub przenieś go poza folder.
+    - Przyczyna: Plik skina jest uszkodzony lub nie jest prawidłowym obrazem PNG.
+    - Rozwiązanie: Zapisz ponownie skina w formacie PNG za pomocą edytora obrazów lub usuń problematyczny plik.
+
+11. Komunikat błędu: Wystąpił wyjątek! / Błąd aplikacji!
+    - Przyczyna: Program napotkał nieoczekiwany błąd (zwykle błąd programu).
+    - Rozwiązanie: Kliknij niebieski link na dole okna błędu, aby skopiować raport o błędzie i wyślij go do dewelopera (skontaktuj się z Paril na PlanetMinecraft). Możesz również spróbować ponownie uruchomić program lub zrestartować komputer i spróbować ponownie.
+
+12. Komunikat błędu: Masz niezapisane zmiany. Czy na pewno chcesz wyjść?
+    - Przyczyna: Skin został zmodyfikowany, ale nie został zapisany.
+    - Rozwiązanie: Kliknij "Tak", aby wyjść bez zapisywania, lub "Nie", aby wrócić i zapisać.
+
+13. Komunikat błędu: Próbujesz uruchomić MCSkin3D z lokalizacji tymczasowej. Proszę rozpakować program poprawnie przed uruchomieniem.
+    - Przyczyna: Uruchamianie pliku EXE bezpośrednio z wnętrza ZIP lub z folderu tymczasowego.
+    - Rozwiązanie: Rozpakuj cały folder MCSkin3D na dysk twardy (np. na pulpit lub dysk D:) i uruchom go stamtąd.
+
+14. Komunikat błędu: Uwaga: Skiny o wysokiej rozdzielczości nie mogą być przesyłane na Minecraft.net jako skin! Ta operacja jest nieodwracalna...
+    - Przyczyna: Próba przesłania zbyt dużego skina.
+    - Rozwiązanie: To jest ostrzeżenie. Potwierdź, aby kontynuować, lub użyj funkcji "Zmniejsz rozdzielczość", aby zmniejszyć skina przed przesłaniem.
+
+15. Komunikat błędu: Masz niezapisane skiny; zmiana katalogu skinów wymaga odświeżenia listy skinów, więc stracisz wszystkie niezapisane zmiany.
+    - Przyczyna: Próba zmiany ścieżki przechowywania skinów, gdy istnieją niezapisane skiny.
+    - Rozwiązanie: Najpierw zapisz swoje skiny, a następnie zmień katalog; lub kliknij "Tak", aby wymusić odświeżenie i stracić zmiany.
+
+16. Komunikat błędu: Rozmiar tego skina nie odpowiada oczekiwanemu rozmiarowi dla wybranego modelu. MCSkin3D może rozwiązać ten problem na dwa sposoby: Przytnij... Skaluj...
+    - Przyczyna: Rozmiar skina (przykład: 64x64) nie odpowiada wymaganiom bieżącego modelu (przykład: skin dwuwarstwowy 1.8 wymaga 64x64 lub 128x128).
+    - Rozwiązanie: Wybierz "Przytnij" lub "Skaluj", aby przekonwertować skina. Zaleca się używanie standardowego rozmiaru 64x64.
+
+17. Komunikat błędu: Ten skrót jest już używany
+    - Przyczyna: Skrót, który ustawiłeś, jest już przypisany do innej funkcji.
+    - Rozwiązanie: Zmień klawisz dla jednej z kolidujących funkcji w ustawieniach skrótów.
+
+
+Uwaga: Ten dokument ma charakter wyłącznie informacyjny!
+
+Jeśli napotkasz błąd niewymieniony powyżej, skopiuj pełny tekst komunikatu o błędzie i utwórz Issue w moim repozytorium GitHub. Przeanalizuję go i zaktualizuję niniejszą referencję.
+
+Życzymy przyjemnego korzystania z MCSkin3D!
+
+--- Utworzone przez: BlueCat ---

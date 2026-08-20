@@ -1,0 +1,82 @@
+﻿MCSkin3D – Foutreferentie (Nederlands)
+=======================================
+
+Dit document bevat een lijst van mogelijke foutmeldingen die in MCSkin3D kunnen verschijnen, samen met hun oorzaken en oplossingen. Wanneer er een foutvenster verschijnt, zoek dan een trefwoord uit de melding in dit document om hulp te vinden.
+
+
+1. Foutmelding: Een bijgevoegde map ontbreekt – meestal omdat je het programma niet hebt uitgepakt. Dit is geen ernstig probleem, maar je mist alle bijgeleverde sjablonen, kleurstalen en andere inhoud.
+   - Oorzaak: Het programma is niet volledig uitgepakt uit het archief; bronmappen ontbreken.
+   - Oplossing: Pak het volledige MCSkin3D ZIP-bestand uit naar een map en voer MCSkin3D.exe vanaf daar uit. Voer het niet rechtstreeks vanuit de ZIP uit.
+
+2. Foutmelding: Fout bij het uploaden van de skin:
+   - Oorzaak: Netwerkproblemen, verbindingsweigering door de Minecraft-server, of verkeerde gebruikersnaam/wachtwoord.
+   - Oplossing: Controleer je internetverbinding, zorg ervoor dat je Minecraft-inloggegevens correct zijn en probeer het later opnieuw.
+
+3. Foutmelding: Kan overlay-afbeelding niet laden: "{0}"; is de resolutie een macht van twee?
+   - Oorzaak: De breedte of hoogte van de overlay-afbeelding is geen macht van twee (bijvoorbeeld: 16, 32, 64, 128, 256, 512...).
+   - Oplossing: Gebruik een afbeeldingseditor om de afbeelding te wijzigen naar een macht van twee (bijvoorbeeld: 512x512) en plaats deze terug in de map `Overlays`.
+
+4. Foutmelding: Hoewel je met MCSkin3D texturen met hoge resolutie kunt bewerken, kun je ze niet uploaden naar je Minecraft-profiel.
+   - Oorzaak: De afmeting van de skin-afbeelding overschrijdt het officiële maximum (meestal 64x64 of 128x128).
+   - Oplossing: Officiële Minecraft ondersteunt alleen skins van standaardformaat. Om te uploaden, verlaag de resolutie of gebruik een externe skin-server.
+
+5. Foutmelding: Start MCSkin3D opnieuw op om de multisampling-optie toe te passen.
+   - Oorzaak: Je hebt de multisampling-instelling (anti-aliasing) gewijzigd, een herstart is vereist.
+   - Oplossing: Sluit MCSkin3D en start het opnieuw.
+
+6. Foutmelding: Sorry, je grafische kaart lijkt het 32-bits pixelformaat niet te ondersteunen – dit is momenteel vereist voor een correcte werking van MCSkin3D.
+   - Oorzaak: Verouderde grafische kaartstuurprogramma's of hardware die geen 32-bits kleurdiepte ondersteunt.
+   - Oplossing: Werk je grafische kaartstuurprogramma's bij. Als het probleem aanhoudt, moet je mogelijk de grafische kaart vervangen, een andere skin-editor gebruiken of het op een andere computer proberen.
+
+7. Foutmelding: Sneltoets "{0}" is in conflict met "{1}" – deze is gewist.
+   - Oorzaak: Je hebt dezelfde sneltoets toegewezen aan twee verschillende functies.
+   - Oplossing: Ga naar `Opties` → `Sneltoetsen` en wijs niet-conflicterende toetsen toe.
+
+8. Foutmelding: Laden van instellingenbestand mislukt; standaardinstellingen zijn geladen.
+   - Oorzaak: Het configuratiebestand is beschadigd of niet leesbaar.
+   - Oplossing: Verwijder het bestand `settings.ini` uit de programmamap (herstel een back-up als je die hebt). Bij de volgende start maakt het programma de standaardinstellingen opnieuw aan.
+
+9. Foutmelding: Kan skin niet downloaden uit de Minecraft-skinopslag!
+   - Oorzaak: Netwerkprobleem of storing van de Minecraft-skinserver.
+   - Oplossing: Controleer je internetverbinding en probeer het later opnieuw. Je kunt ook een lokaal skinbestand gebruiken.
+
+10. Foutmelding: Fout bij het laden van skin "{0}"; verwijder dit bestand of verplaats het uit de map.
+    - Oorzaak: Het skinbestand is beschadigd of geen geldige PNG-afbeelding.
+    - Oplossing: Sla de skin opnieuw op in PNG-formaat met een afbeeldingseditor of verwijder het probleembestand.
+
+11. Foutmelding: Er is een uitzondering opgetreden! / Applicatiefout!
+    - Oorzaak: Het programma is een onverwachte fout tegengekomen (meestal een bug).
+    - Oplossing: Klik op de blauwe link onderaan het foutvenster om het foutrapport te kopiëren en stuur het naar de ontwikkelaar (neem contact op met Paril op PlanetMinecraft). Je kunt ook proberen het programma opnieuw te starten, of je computer opnieuw opstarten en het opnieuw proberen.
+
+12. Foutmelding: Je hebt niet-opgeslagen wijzigingen. Weet je zeker dat je wilt afsluiten?
+    - Oorzaak: De skin is gewijzigd maar niet opgeslagen.
+    - Oplossing: Klik op "Ja" om af te sluiten zonder op te slaan, of op "Nee" om terug te gaan en op te slaan.
+
+13. Foutmelding: Je probeert MCSkin3D uit te voeren vanaf een tijdelijke locatie. Pak het programma correct uit voordat je het uitvoert.
+    - Oorzaak: De EXE rechtstreeks vanuit de ZIP uitvoeren of vanuit een tijdelijke map.
+    - Oplossing: Pak de volledige MCSkin3D-map uit naar de harde schijf (bijvoorbeeld naar het Bureaublad of station D:) en voer het vanaf daar uit.
+
+14. Foutmelding: Opmerking: Skins met hoge resolutie kunnen niet als skin worden geüpload naar Minecraft.net! Deze bewerking is onomkeerbaar...
+    - Oorzaak: Poging om een te grote skin te uploaden.
+    - Oplossing: Dit is een waarschuwing. Bevestig om door te gaan, of gebruik de functie "Resolutie verlagen" om de skin te verkleinen voor het uploaden.
+
+15. Foutmelding: Je hebt niet-opgeslagen skins; het wijzigen van de skinmap vereist het vernieuwen van de skinlijst, dus je verliest alle niet-opgeslagen wijzigingen.
+    - Oorzaak: Poging om het opslagpad van skins te wijzigen terwijl er niet-opgeslagen skins zijn.
+    - Oplossing: Sla eerst je skins op, wijzig dan de map; of klik op "Ja" om geforceerd te vernieuwen en de wijzigingen te verliezen.
+
+16. Foutmelding: De grootte van deze skin komt niet overeen met de verwachte grootte voor het geselecteerde model. MCSkin3D kan dit probleem op twee manieren oplossen: Bijsnijden... Schalen...
+    - Oorzaak: De grootte van de skin (bijvoorbeeld: 64x64) komt niet overeen met de vereisten van het huidige model (bijvoorbeeld: een 1.8-dubbellaagse skin heeft 64x64 of 128x128 nodig).
+    - Oplossing: Kies "Bijsnijden" of "Schalen" om de skin te converteren. Het wordt aanbevolen om het standaardformaat 64x64 te gebruiken.
+
+17. Foutmelding: Deze sneltoets is al in gebruik
+    - Oorzaak: De sneltoets die je hebt ingesteld is al toegewezen aan een andere functie.
+    - Oplossing: Wijzig de toets voor een van de conflicterende functies in de sneltoetsinstellingen.
+
+
+Opmerking: Dit document is alleen ter referentie!
+
+Als je een fout tegenkomt die niet in de bovenstaande lijst staat, kopieer dan de volledige foutmelding en maak een Issue aan in mijn GitHub-repository. Ik zal het analyseren en deze referentie bijwerken.
+
+Veel plezier met MCSkin3D!
+
+--- Gemaakt door: BlueCat ---

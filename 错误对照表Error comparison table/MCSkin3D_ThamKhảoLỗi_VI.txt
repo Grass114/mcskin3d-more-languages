@@ -1,0 +1,82 @@
+﻿MCSkin3D – Tham khảo lỗi (Tiếng Việt)
+======================================
+
+Tài liệu này liệt kê các thông báo lỗi có thể xuất hiện trong MCSkin3D, cùng với nguyên nhân và cách khắc phục. Khi cửa sổ lỗi xuất hiện, hãy tìm kiếm từ khóa từ thông báo trong tài liệu này để được trợ giúp.
+
+
+1. Thông báo lỗi: Thiếu một thư mục đi kèm – thường là do bạn chưa giải nén chương trình. Đây không phải là vấn đề nghiêm trọng, nhưng bạn sẽ thiếu các mẫu, bảng màu và nội dung khác đi kèm.
+   - Nguyên nhân: Chương trình chưa được giải nén hoàn toàn khỏi kho lưu trữ; các thư mục tài nguyên bị thiếu.
+   - Giải pháp: Giải nén toàn bộ tệp ZIP MCSkin3D vào một thư mục và chạy MCSkin3D.exe từ đó. Không chạy trực tiếp từ bên trong ZIP.
+
+2. Thông báo lỗi: Lỗi khi tải lên skin:
+   - Nguyên nhân: Sự cố mạng, máy chủ Minecraft từ chối kết nối hoặc tên người dùng/mật khẩu không đúng.
+   - Giải pháp: Kiểm tra kết nối Internet, đảm bảo thông tin đăng nhập Minecraft của bạn chính xác và thử lại sau.
+
+3. Thông báo lỗi: Không thể tải ảnh lớp phủ: "{0}"; độ phân giải có phải là lũy thừa của 2 không?
+   - Nguyên nhân: Chiều rộng hoặc chiều cao của ảnh lớp phủ không phải là lũy thừa của 2 (ví dụ: 16, 32, 64, 128, 256, 512...).
+   - Giải pháp: Sử dụng trình chỉnh sửa ảnh để thay đổi kích thước ảnh thành lũy thừa của 2 (ví dụ: 512x512), sau đó đặt lại vào thư mục `Overlays`.
+
+4. Thông báo lỗi: Mặc dù bạn có thể chỉnh sửa kết cấu độ phân giải cao bằng MCSkin3D, nhưng bạn không thể tải chúng lên hồ sơ Minecraft của mình.
+   - Nguyên nhân: Kích thước ảnh skin vượt quá kích thước tối đa chính thức (thường là 64x64 hoặc 128x128).
+   - Giải pháp: Minecraft chính thức chỉ hỗ trợ skin kích thước tiêu chuẩn. Để tải lên, hãy giảm độ phân giải hoặc sử dụng máy chủ skin của bên thứ ba.
+
+5. Thông báo lỗi: Khởi động lại MCSkin3D để áp dụng tùy chọn đa lấy mẫu.
+   - Nguyên nhân: Bạn đã thay đổi cài đặt đa lấy mẫu (khử răng cưa), cần khởi động lại.
+   - Giải pháp: Đóng và khởi động lại MCSkin3D.
+
+6. Thông báo lỗi: Rất tiếc, card đồ họa của bạn dường như không hỗ trợ định dạng pixel 32-bit – hiện cần thiết để MCSkin3D hoạt động bình thường.
+   - Nguyên nhân: Trình điều khiển card đồ họa đã lỗi thời hoặc phần cứng không hỗ trợ độ sâu màu 32-bit.
+   - Giải pháp: Cập nhật trình điều khiển card đồ họa của bạn. Nếu sự cố vẫn tiếp diễn, bạn có thể cần thay card đồ họa, sử dụng trình chỉnh sửa skin khác hoặc thử trên máy tính khác.
+
+7. Thông báo lỗi: Phím tắt "{0}" xung đột với "{1}" – đã bị xóa.
+   - Nguyên nhân: Bạn đã gán cùng một phím tắt cho hai chức năng khác nhau.
+   - Giải pháp: Vào `Tùy chọn` → `Phím tắt` và gán các phím không xung đột.
+
+8. Thông báo lỗi: Không thể tải tệp cài đặt; đã tải cài đặt mặc định.
+   - Nguyên nhân: Tệp cấu hình bị hỏng hoặc không thể đọc được.
+   - Giải pháp: Xóa tệp `settings.ini` khỏi thư mục chương trình (khôi phục bản sao lưu nếu có). Khi khởi động tiếp theo, chương trình sẽ tạo lại cài đặt mặc định.
+
+9. Thông báo lỗi: Không thể tải skin từ kho lưu trữ skin Minecraft!
+   - Nguyên nhân: Sự cố mạng hoặc lỗi máy chủ skin Minecraft.
+   - Giải pháp: Kiểm tra kết nối Internet của bạn và thử lại sau. Bạn cũng có thể sử dụng tệp skin cục bộ.
+
+10. Thông báo lỗi: Lỗi khi tải skin "{0}"; vui lòng xóa tệp này hoặc di chuyển nó ra khỏi thư mục.
+    - Nguyên nhân: Tệp skin bị hỏng hoặc không phải là ảnh PNG hợp lệ.
+    - Giải pháp: Lưu lại skin ở định dạng PNG bằng trình chỉnh sửa ảnh hoặc xóa tệp có sự cố.
+
+11. Thông báo lỗi: Đã xảy ra ngoại lệ! / Lỗi ứng dụng!
+    - Nguyên nhân: Chương trình gặp lỗi không mong muốn (thường là lỗi phần mềm).
+    - Giải pháp: Nhấp vào liên kết màu xanh ở cuối cửa sổ lỗi để sao chép báo cáo lỗi và gửi cho nhà phát triển (liên hệ với Paril trên PlanetMinecraft). Bạn cũng có thể thử khởi động lại chương trình hoặc khởi động lại máy tính và thử lại.
+
+12. Thông báo lỗi: Bạn có các thay đổi chưa được lưu. Bạn có chắc chắn muốn thoát không?
+    - Nguyên nhân: Skin đã được sửa đổi nhưng chưa được lưu.
+    - Giải pháp: Nhấp vào "Có" để thoát mà không lưu hoặc "Không" để quay lại và lưu.
+
+13. Thông báo lỗi: Bạn đang cố gắng chạy MCSkin3D từ vị trí tạm thời. Vui lòng giải nén chương trình đúng cách trước khi chạy.
+    - Nguyên nhân: Chạy tệp EXE trực tiếp từ bên trong ZIP hoặc từ thư mục tạm thời.
+    - Giải pháp: Giải nén toàn bộ thư mục MCSkin3D vào ổ cứng (ví dụ: Màn hình nền hoặc ổ D:) và chạy từ đó.
+
+14. Thông báo lỗi: Lưu ý: Skin độ phân giải cao không thể được tải lên Minecraft.net dưới dạng skin! Thao tác này không thể hoàn tác...
+    - Nguyên nhân: Cố gắng tải lên skin quá lớn.
+    - Giải pháp: Đây là cảnh báo. Xác nhận để tiếp tục hoặc sử dụng chức năng "Giảm độ phân giải" để thu nhỏ skin trước khi tải lên.
+
+15. Thông báo lỗi: Bạn có skin chưa được lưu; thay đổi thư mục skin yêu cầu làm mới danh sách skin, do đó bạn sẽ mất tất cả các thay đổi chưa được lưu.
+    - Nguyên nhân: Cố gắng thay đổi đường dẫn lưu trữ skin trong khi có skin chưa được lưu.
+    - Giải pháp: Trước tiên hãy lưu skin của bạn, sau đó thay đổi thư mục; hoặc nhấp vào "Có" để buộc làm mới và mất các thay đổi.
+
+16. Thông báo lỗi: Kích thước skin này không khớp với kích thước dự kiến cho mô hình đã chọn. MCSkin3D có thể giải quyết vấn đề này theo hai cách: Cắt... Tỷ lệ...
+    - Nguyên nhân: Kích thước skin (ví dụ: 64x64) không đáp ứng yêu cầu của mô hình hiện tại (ví dụ: skin hai lớp 1.8 cần 64x64 hoặc 128x128).
+    - Giải pháp: Chọn "Cắt" hoặc "Tỷ lệ" để chuyển đổi skin. Nên sử dụng kích thước tiêu chuẩn 64x64.
+
+17. Thông báo lỗi: Phím tắt này đã được sử dụng
+    - Nguyên nhân: Phím tắt bạn đã đặt đã được gán cho chức năng khác.
+    - Giải pháp: Thay đổi phím cho một trong các chức năng xung đột trong cài đặt phím tắt.
+
+
+Lưu ý: Tài liệu này chỉ để tham khảo!
+
+Nếu bạn gặp lỗi không được liệt kê ở trên, vui lòng sao chép toàn bộ văn bản thông báo lỗi và tạo Issue trong kho lưu trữ GitHub của tôi. Tôi sẽ phân tích và cập nhật tài liệu tham khảo này.
+
+Chúc bạn sử dụng MCSkin3D vui vẻ!
+
+--- Được tạo bởi: BlueCat ---
